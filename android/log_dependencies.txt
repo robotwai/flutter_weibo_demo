@@ -1,0 +1,2425 @@
+
+> Task :app:dependencies
+
+------------------------------------------------------------
+Project :app
+------------------------------------------------------------
+
+_internal_aapt2_binary - The AAPT2 binary to use for processing resources.
+\--- com.android.tools.build:aapt2:3.2.1-4818971
+
+androidApis - Configuration providing various types of Android JAR file
+No dependencies
+
+androidTestAnnotationProcessor - Classpath for the annotation processor for 'androidTest'. (n)
+No dependencies
+
+androidTestApi - API dependencies for 'androidTest' sources. (n)
+No dependencies
+
+androidTestApiDependenciesMetadata
+No dependencies
+
+androidTestApk - Apk dependencies for 'androidTest' sources (deprecated: use 'androidTestRuntimeOnly' instead). (n)
+No dependencies
+
+androidTestCompile - Compile dependencies for 'androidTest' sources (deprecated: use 'androidTestImplementation' instead). (n)
+No dependencies
+
+androidTestCompileOnly - Compile only dependencies for 'androidTest' sources. (n)
+No dependencies
+
+androidTestCompileOnlyDependenciesMetadata
+No dependencies
+
+androidTestDebugAnnotationProcessor - Classpath for the annotation processor for 'androidTestDebug'. (n)
+No dependencies
+
+androidTestDebugApi - API dependencies for 'androidTestDebug' sources. (n)
+No dependencies
+
+androidTestDebugApiDependenciesMetadata
+No dependencies
+
+androidTestDebugApk - Apk dependencies for 'androidTestDebug' sources (deprecated: use 'androidTestDebugRuntimeOnly' instead). (n)
+No dependencies
+
+androidTestDebugCompile - Compile dependencies for 'androidTestDebug' sources (deprecated: use 'androidTestDebugImplementation' instead). (n)
+No dependencies
+
+androidTestDebugCompileOnly - Compile only dependencies for 'androidTestDebug' sources. (n)
+No dependencies
+
+androidTestDebugCompileOnlyDependenciesMetadata
+No dependencies
+
+androidTestDebugImplementation - Implementation only dependencies for 'androidTestDebug' sources. (n)
+No dependencies
+
+androidTestDebugImplementationDependenciesMetadata
+No dependencies
+
+androidTestDebugProvided - Provided dependencies for 'androidTestDebug' sources (deprecated: use 'androidTestDebugCompileOnly' instead). (n)
+No dependencies
+
+androidTestDebugRuntimeOnly - Runtime only dependencies for 'androidTestDebug' sources. (n)
+No dependencies
+
+androidTestDebugRuntimeOnlyDependenciesMetadata
+No dependencies
+
+androidTestDebugWearApp - Link to a wear app to embed for object 'androidTestDebug'. (n)
+No dependencies
+
+androidTestImplementation - Implementation only dependencies for 'androidTest' sources. (n)
++--- androidx.test:runner:1.1.1 (n)
+\--- androidx.test.espresso:espresso-core:3.1.1 (n)
+
+androidTestImplementationDependenciesMetadata
++--- androidx.test:runner:1.1.1
+|    +--- androidx.annotation:annotation:1.0.0
+|    +--- androidx.test:monitor:1.1.1
+|    |    \--- androidx.annotation:annotation:1.0.0
+|    +--- junit:junit:4.12
+|    |    \--- org.hamcrest:hamcrest-core:1.3
+|    \--- net.sf.kxml:kxml2:2.3.0
+\--- androidx.test.espresso:espresso-core:3.1.1
+     +--- androidx.test:runner:1.1.1 (*)
+     +--- androidx.test.espresso:espresso-idling-resource:3.1.1
+     +--- com.squareup:javawriter:2.1.1
+     +--- javax.inject:javax.inject:1
+     +--- org.hamcrest:hamcrest-library:1.3
+     |    \--- org.hamcrest:hamcrest-core:1.3
+     +--- org.hamcrest:hamcrest-integration:1.3
+     |    \--- org.hamcrest:hamcrest-library:1.3 (*)
+     \--- com.google.code.findbugs:jsr305:2.0.1
+
+androidTestProvided - Provided dependencies for 'androidTest' sources (deprecated: use 'androidTestCompileOnly' instead). (n)
+No dependencies
+
+androidTestRuntimeOnly - Runtime only dependencies for 'androidTest' sources. (n)
+No dependencies
+
+androidTestRuntimeOnlyDependenciesMetadata
+No dependencies
+
+androidTestUtil - Additional APKs used during instrumentation testing.
+No dependencies
+
+androidTestWearApp - Link to a wear app to embed for object 'androidTest'. (n)
+No dependencies
+
+annotationProcessor - Classpath for the annotation processor for 'main'. (n)
+No dependencies
+
+api - API dependencies for 'main' sources. (n)
+No dependencies
+
+apiDependenciesMetadata
+No dependencies
+
+apk - Apk dependencies for 'main' sources (deprecated: use 'runtimeOnly' instead). (n)
+No dependencies
+
+archives - Configuration for archive artifacts.
+No dependencies
+
+compile - Compile dependencies for 'main' sources (deprecated: use 'implementation' instead).
+No dependencies
+
+compileOnly - Compile only dependencies for 'main' sources. (n)
+No dependencies
+
+compileOnlyDependenciesMetadata
+No dependencies
+
+debugAndroidTestAnnotationProcessorClasspath - Resolved configuration for annotation-processor for variant: debugAndroidTest
+No dependencies
+
+debugAndroidTestApi - API dependencies for compilation 'debugAndroidTest' (target  (androidJvm)). (n)
+No dependencies
+
+debugAndroidTestApiDependenciesMetadata
+No dependencies
+
+debugAndroidTestCompile - Dependencies for compilation 'debugAndroidTest' (target  (androidJvm)) (deprecated, use 'debugAndroidTestImplementation ' instead).
+No dependencies
+
+debugAndroidTestCompileClasspath - Compile classpath for compilation 'debugAndroidTest' (target  (androidJvm)).
++--- androidx.test:runner:1.1.1
+|    +--- androidx.annotation:annotation:1.0.0
+|    +--- androidx.test:monitor:1.1.1
+|    |    \--- androidx.annotation:annotation:1.0.0
+|    +--- junit:junit:4.12
+|    |    \--- org.hamcrest:hamcrest-core:1.3
+|    \--- net.sf.kxml:kxml2:2.3.0
++--- androidx.test.espresso:espresso-core:3.1.1
+|    +--- androidx.test:runner:1.1.1 (*)
+|    +--- androidx.test.espresso:espresso-idling-resource:3.1.1
+|    +--- com.squareup:javawriter:2.1.1
+|    +--- javax.inject:javax.inject:1
+|    +--- org.hamcrest:hamcrest-library:1.3
+|    |    \--- org.hamcrest:hamcrest-core:1.3
+|    +--- org.hamcrest:hamcrest-integration:1.3
+|    |    \--- org.hamcrest:hamcrest-library:1.3 (*)
+|    \--- com.google.code.findbugs:jsr305:2.0.1
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.71
+|    \--- org.jetbrains.kotlin:kotlin-stdlib:1.2.71
+|         +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.71
+|         \--- org.jetbrains:annotations:13.0
++--- project :video_player
++--- project :fluttertoast
++--- project :shared_preferences
++--- project :sqflite
++--- project :image_picker
+|    \--- com.android.support:support-v4:27.1.1 -> androidx.legacy:legacy-support-v4:1.0.0-rc01
+|         +--- androidx.core:core:1.0.0-rc01
+|         |    +--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
+|         |    +--- androidx.collection:collection:1.0.0-rc01
+|         |    |    \--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
+|         |    +--- androidx.lifecycle:lifecycle-runtime:2.0.0-rc01
+|         |    |    +--- androidx.lifecycle:lifecycle-common:2.0.0-rc01
+|         |    |    \--- androidx.arch.core:core-common:2.0.0-rc01
+|         |    \--- androidx.versionedparcelable:versionedparcelable:1.0.0-rc01
+|         |         +--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
+|         |         \--- androidx.collection:collection:1.0.0-rc01 (*)
+|         +--- androidx.media:media:1.0.0-rc01
+|         |    +--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
+|         |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    \--- androidx.versionedparcelable:versionedparcelable:1.0.0-rc01 (*)
+|         +--- androidx.legacy:legacy-support-core-utils:1.0.0-rc01
+|         |    +--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
+|         |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    +--- androidx.documentfile:documentfile:1.0.0-rc01
+|         |    |    \--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
+|         |    +--- androidx.loader:loader:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
+|         |    |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    |    +--- androidx.lifecycle:lifecycle-livedata-core:2.0.0-rc01
+|         |    |    |    +--- androidx.lifecycle:lifecycle-common:2.0.0-rc01
+|         |    |    |    +--- androidx.arch.core:core-common:2.0.0-rc01
+|         |    |    |    \--- androidx.arch.core:core-runtime:2.0.0-rc01
+|         |    |    |         \--- androidx.arch.core:core-common:2.0.0-rc01
+|         |    |    \--- androidx.lifecycle:lifecycle-viewmodel:2.0.0-rc01
+|         |    +--- androidx.localbroadcastmanager:localbroadcastmanager:1.0.0-rc01
+|         |    |    \--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
+|         |    \--- androidx.print:print:1.0.0-rc01
+|         |         \--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
+|         +--- androidx.legacy:legacy-support-core-ui:1.0.0-rc01
+|         |    +--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
+|         |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    +--- androidx.legacy:legacy-support-core-utils:1.0.0-rc01 (*)
+|         |    +--- androidx.customview:customview:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
+|         |    |    \--- androidx.core:core:1.0.0-rc01 (*)
+|         |    +--- androidx.viewpager:viewpager:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
+|         |    |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0-rc01 (*)
+|         |    +--- androidx.coordinatorlayout:coordinatorlayout:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
+|         |    |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0-rc01 (*)
+|         |    +--- androidx.drawerlayout:drawerlayout:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
+|         |    |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0-rc01 (*)
+|         |    +--- androidx.slidingpanelayout:slidingpanelayout:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
+|         |    |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0-rc01 (*)
+|         |    +--- androidx.interpolator:interpolator:1.0.0-rc01
+|         |    |    \--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
+|         |    +--- androidx.swiperefreshlayout:swiperefreshlayout:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
+|         |    |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    |    \--- androidx.interpolator:interpolator:1.0.0-rc01 (*)
+|         |    +--- androidx.asynclayoutinflater:asynclayoutinflater:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
+|         |    |    \--- androidx.core:core:1.0.0-rc01 (*)
+|         |    \--- androidx.cursoradapter:cursoradapter:1.0.0-rc01
+|         |         \--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
+|         \--- androidx.fragment:fragment:1.0.0-rc01
+|              +--- androidx.core:core:1.0.0-rc01 (*)
+|              +--- androidx.legacy:legacy-support-core-ui:1.0.0-rc01 (*)
+|              +--- androidx.legacy:legacy-support-core-utils:1.0.0-rc01 (*)
+|              +--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
+|              +--- androidx.loader:loader:1.0.0-rc01 (*)
+|              \--- androidx.lifecycle:lifecycle-viewmodel:2.0.0-rc01
++--- project :path_provider
++--- project :flutter_webview_plugin
+\--- project :flutter_native_image
+
+debugAndroidTestCompileOnly - Compile only dependencies for compilation 'debugAndroidTest' (target  (androidJvm)).
+No dependencies
+
+debugAndroidTestCompileOnlyDependenciesMetadata
+No dependencies
+
+debugAndroidTestImplementation - Implementation only dependencies for compilation 'debugAndroidTest' (target  (androidJvm)). (n)
+No dependencies
+
+debugAndroidTestImplementationDependenciesMetadata
++--- androidx.test:runner:1.1.1
+|    +--- androidx.annotation:annotation:1.0.0
+|    +--- androidx.test:monitor:1.1.1
+|    |    \--- androidx.annotation:annotation:1.0.0
+|    +--- junit:junit:4.12
+|    |    \--- org.hamcrest:hamcrest-core:1.3
+|    \--- net.sf.kxml:kxml2:2.3.0
+\--- androidx.test.espresso:espresso-core:3.1.1
+     +--- androidx.test:runner:1.1.1 (*)
+     +--- androidx.test.espresso:espresso-idling-resource:3.1.1
+     +--- com.squareup:javawriter:2.1.1
+     +--- javax.inject:javax.inject:1
+     +--- org.hamcrest:hamcrest-library:1.3
+     |    \--- org.hamcrest:hamcrest-core:1.3
+     +--- org.hamcrest:hamcrest-integration:1.3
+     |    \--- org.hamcrest:hamcrest-library:1.3 (*)
+     \--- com.google.code.findbugs:jsr305:2.0.1
+
+debugAndroidTestRuntime - Runtime dependencies for compilation 'debugAndroidTest' (target  (androidJvm)) (deprecated, use 'debugAndroidTestRuntimeOnly ' instead).
+No dependencies
+
+debugAndroidTestRuntimeClasspath - Runtime classpath of compilation 'debugAndroidTest' (target  (androidJvm)).
++--- androidx.test:runner:1.1.1
+|    +--- androidx.annotation:annotation:1.0.0
+|    +--- androidx.test:monitor:1.1.1
+|    |    \--- androidx.annotation:annotation:1.0.0
+|    +--- junit:junit:4.12
+|    |    \--- org.hamcrest:hamcrest-core:1.3
+|    \--- net.sf.kxml:kxml2:2.3.0
++--- androidx.test.espresso:espresso-core:3.1.1
+|    +--- androidx.test:runner:1.1.1 (*)
+|    +--- androidx.test.espresso:espresso-idling-resource:3.1.1
+|    +--- com.squareup:javawriter:2.1.1
+|    +--- javax.inject:javax.inject:1
+|    +--- org.hamcrest:hamcrest-library:1.3
+|    |    \--- org.hamcrest:hamcrest-core:1.3
+|    +--- org.hamcrest:hamcrest-integration:1.3
+|    |    \--- org.hamcrest:hamcrest-library:1.3 (*)
+|    \--- com.google.code.findbugs:jsr305:2.0.1
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.71
+|    \--- org.jetbrains.kotlin:kotlin-stdlib:1.2.71
+|         +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.71
+|         \--- org.jetbrains:annotations:13.0
++--- project :video_player
+|    +--- com.google.android.exoplayer:exoplayer-core:2.9.6
+|    |    \--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
+|    +--- com.google.android.exoplayer:exoplayer-hls:2.9.6
+|    |    +--- com.google.android.exoplayer:exoplayer-core:2.9.6 (*)
+|    |    \--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
+|    +--- com.google.android.exoplayer:exoplayer-dash:2.9.6
+|    |    +--- com.google.android.exoplayer:exoplayer-core:2.9.6 (*)
+|    |    \--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
+|    \--- com.google.android.exoplayer:exoplayer-smoothstreaming:2.9.6
+|         +--- com.google.android.exoplayer:exoplayer-core:2.9.6 (*)
+|         \--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
++--- project :fluttertoast
++--- project :shared_preferences
++--- project :sqflite
++--- project :image_picker
+|    \--- com.android.support:support-v4:27.1.1 -> androidx.legacy:legacy-support-v4:1.0.0-rc01
+|         +--- androidx.core:core:1.0.0-rc01 -> 1.0.0
+|         |    +--- androidx.annotation:annotation:1.0.0
+|         |    +--- androidx.collection:collection:1.0.0
+|         |    |    \--- androidx.annotation:annotation:1.0.0
+|         |    +--- androidx.lifecycle:lifecycle-runtime:2.0.0
+|         |    |    +--- androidx.lifecycle:lifecycle-common:2.0.0
+|         |    |    |    \--- androidx.annotation:annotation:1.0.0
+|         |    |    +--- androidx.arch.core:core-common:2.0.0
+|         |    |    |    \--- androidx.annotation:annotation:1.0.0
+|         |    |    \--- androidx.annotation:annotation:1.0.0
+|         |    \--- androidx.versionedparcelable:versionedparcelable:1.0.0
+|         |         +--- androidx.annotation:annotation:1.0.0
+|         |         \--- androidx.collection:collection:1.0.0 (*)
+|         +--- androidx.media:media:1.0.0-rc01
+|         |    +--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
+|         |    +--- androidx.core:core:1.0.0-rc01 -> 1.0.0 (*)
+|         |    \--- androidx.versionedparcelable:versionedparcelable:1.0.0-rc01 -> 1.0.0 (*)
+|         +--- androidx.legacy:legacy-support-core-utils:1.0.0-rc01 -> 1.0.0
+|         |    +--- androidx.annotation:annotation:1.0.0
+|         |    +--- androidx.core:core:1.0.0 (*)
+|         |    +--- androidx.documentfile:documentfile:1.0.0
+|         |    |    \--- androidx.annotation:annotation:1.0.0
+|         |    +--- androidx.loader:loader:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    +--- androidx.core:core:1.0.0 (*)
+|         |    |    +--- androidx.lifecycle:lifecycle-livedata:2.0.0
+|         |    |    |    +--- androidx.arch.core:core-runtime:2.0.0
+|         |    |    |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    |    |    \--- androidx.arch.core:core-common:2.0.0 (*)
+|         |    |    |    +--- androidx.lifecycle:lifecycle-livedata-core:2.0.0
+|         |    |    |    |    +--- androidx.lifecycle:lifecycle-common:2.0.0 (*)
+|         |    |    |    |    +--- androidx.arch.core:core-common:2.0.0 (*)
+|         |    |    |    |    \--- androidx.arch.core:core-runtime:2.0.0 (*)
+|         |    |    |    \--- androidx.arch.core:core-common:2.0.0 (*)
+|         |    |    \--- androidx.lifecycle:lifecycle-viewmodel:2.0.0
+|         |    |         \--- androidx.annotation:annotation:1.0.0
+|         |    +--- androidx.localbroadcastmanager:localbroadcastmanager:1.0.0
+|         |    |    \--- androidx.annotation:annotation:1.0.0
+|         |    \--- androidx.print:print:1.0.0
+|         |         \--- androidx.annotation:annotation:1.0.0
+|         +--- androidx.legacy:legacy-support-core-ui:1.0.0-rc01 -> 1.0.0
+|         |    +--- androidx.annotation:annotation:1.0.0
+|         |    +--- androidx.core:core:1.0.0 (*)
+|         |    +--- androidx.legacy:legacy-support-core-utils:1.0.0 (*)
+|         |    +--- androidx.customview:customview:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    \--- androidx.core:core:1.0.0 (*)
+|         |    +--- androidx.viewpager:viewpager:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    +--- androidx.core:core:1.0.0 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0 (*)
+|         |    +--- androidx.coordinatorlayout:coordinatorlayout:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    +--- androidx.core:core:1.0.0 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0 (*)
+|         |    +--- androidx.drawerlayout:drawerlayout:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    +--- androidx.core:core:1.0.0 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0 (*)
+|         |    +--- androidx.slidingpanelayout:slidingpanelayout:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    +--- androidx.core:core:1.0.0 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0 (*)
+|         |    +--- androidx.interpolator:interpolator:1.0.0
+|         |    |    \--- androidx.annotation:annotation:1.0.0
+|         |    +--- androidx.swiperefreshlayout:swiperefreshlayout:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    +--- androidx.core:core:1.0.0 (*)
+|         |    |    \--- androidx.interpolator:interpolator:1.0.0 (*)
+|         |    +--- androidx.asynclayoutinflater:asynclayoutinflater:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    \--- androidx.core:core:1.0.0 (*)
+|         |    \--- androidx.cursoradapter:cursoradapter:1.0.0
+|         |         \--- androidx.annotation:annotation:1.0.0
+|         \--- androidx.fragment:fragment:1.0.0-rc01 -> 1.0.0
+|              +--- androidx.core:core:1.0.0 (*)
+|              +--- androidx.legacy:legacy-support-core-ui:1.0.0 (*)
+|              +--- androidx.legacy:legacy-support-core-utils:1.0.0 (*)
+|              +--- androidx.annotation:annotation:1.0.0
+|              +--- androidx.loader:loader:1.0.0 (*)
+|              \--- androidx.lifecycle:lifecycle-viewmodel:2.0.0 (*)
++--- project :path_provider
++--- project :flutter_webview_plugin
+|    \--- androidx.appcompat:appcompat:1.0.0
+|         +--- androidx.annotation:annotation:1.0.0
+|         +--- androidx.core:core:1.0.0 (*)
+|         +--- androidx.collection:collection:1.0.0 (*)
+|         +--- androidx.cursoradapter:cursoradapter:1.0.0 (*)
+|         +--- androidx.legacy:legacy-support-core-utils:1.0.0 (*)
+|         +--- androidx.fragment:fragment:1.0.0 (*)
+|         +--- androidx.vectordrawable:vectordrawable:1.0.0
+|         |    +--- androidx.annotation:annotation:1.0.0
+|         |    \--- androidx.core:core:1.0.0 (*)
+|         \--- androidx.vectordrawable:vectordrawable-animated:1.0.0
+|              +--- androidx.vectordrawable:vectordrawable:1.0.0 (*)
+|              \--- androidx.legacy:legacy-support-core-ui:1.0.0 (*)
+\--- project :flutter_native_image
+
+debugAndroidTestRuntimeOnly - Runtime only dependencies for compilation 'debugAndroidTest' (target  (androidJvm)). (n)
+No dependencies
+
+debugAndroidTestRuntimeOnlyDependenciesMetadata
+No dependencies
+
+debugAnnotationProcessor - Classpath for the annotation processor for 'debug'. (n)
+No dependencies
+
+debugAnnotationProcessorClasspath - Resolved configuration for annotation-processor for variant: debug
+No dependencies
+
+debugApi - API dependencies for compilation 'debug' (target  (androidJvm)). (n)
++--- unspecified (n)
+\--- unspecified (n)
+
+debugApiDependenciesMetadata
+No dependencies
+
+debugApiElements - API elements for debug (n)
+No dependencies
+
+debugApk - Apk dependencies for 'debug' sources (deprecated: use 'debugRuntimeOnly' instead). (n)
+No dependencies
+
+debugBundleElements - Bundle elements for debug (n)
+No dependencies
+
+debugCompile - Dependencies for compilation 'debug' (target  (androidJvm)) (deprecated, use 'debugImplementation ' instead).
+No dependencies
+
+debugCompileClasspath - Compile classpath for compilation 'debug' (target  (androidJvm)).
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.71
+|    \--- org.jetbrains.kotlin:kotlin-stdlib:1.2.71
+|         +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.71
+|         \--- org.jetbrains:annotations:13.0
++--- project :video_player
++--- project :fluttertoast
++--- project :shared_preferences
++--- project :sqflite
++--- project :image_picker
+|    \--- com.android.support:support-v4:27.1.1 -> androidx.legacy:legacy-support-v4:1.0.0-rc01
+|         +--- androidx.core:core:1.0.0-rc01
+|         |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    +--- androidx.collection:collection:1.0.0-rc01
+|         |    |    \--- androidx.annotation:annotation:1.0.0-rc01
+|         |    +--- androidx.lifecycle:lifecycle-runtime:2.0.0-rc01
+|         |    |    +--- androidx.lifecycle:lifecycle-common:2.0.0-rc01
+|         |    |    \--- androidx.arch.core:core-common:2.0.0-rc01
+|         |    \--- androidx.versionedparcelable:versionedparcelable:1.0.0-rc01
+|         |         +--- androidx.annotation:annotation:1.0.0-rc01
+|         |         \--- androidx.collection:collection:1.0.0-rc01 (*)
+|         +--- androidx.media:media:1.0.0-rc01
+|         |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    \--- androidx.versionedparcelable:versionedparcelable:1.0.0-rc01 (*)
+|         +--- androidx.legacy:legacy-support-core-utils:1.0.0-rc01
+|         |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    +--- androidx.documentfile:documentfile:1.0.0-rc01
+|         |    |    \--- androidx.annotation:annotation:1.0.0-rc01
+|         |    +--- androidx.loader:loader:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    |    +--- androidx.lifecycle:lifecycle-livedata-core:2.0.0-rc01
+|         |    |    |    +--- androidx.lifecycle:lifecycle-common:2.0.0-rc01
+|         |    |    |    +--- androidx.arch.core:core-common:2.0.0-rc01
+|         |    |    |    \--- androidx.arch.core:core-runtime:2.0.0-rc01
+|         |    |    |         \--- androidx.arch.core:core-common:2.0.0-rc01
+|         |    |    \--- androidx.lifecycle:lifecycle-viewmodel:2.0.0-rc01
+|         |    +--- androidx.localbroadcastmanager:localbroadcastmanager:1.0.0-rc01
+|         |    |    \--- androidx.annotation:annotation:1.0.0-rc01
+|         |    \--- androidx.print:print:1.0.0-rc01
+|         |         \--- androidx.annotation:annotation:1.0.0-rc01
+|         +--- androidx.legacy:legacy-support-core-ui:1.0.0-rc01
+|         |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    +--- androidx.legacy:legacy-support-core-utils:1.0.0-rc01 (*)
+|         |    +--- androidx.customview:customview:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    |    \--- androidx.core:core:1.0.0-rc01 (*)
+|         |    +--- androidx.viewpager:viewpager:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0-rc01 (*)
+|         |    +--- androidx.coordinatorlayout:coordinatorlayout:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0-rc01 (*)
+|         |    +--- androidx.drawerlayout:drawerlayout:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0-rc01 (*)
+|         |    +--- androidx.slidingpanelayout:slidingpanelayout:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0-rc01 (*)
+|         |    +--- androidx.interpolator:interpolator:1.0.0-rc01
+|         |    |    \--- androidx.annotation:annotation:1.0.0-rc01
+|         |    +--- androidx.swiperefreshlayout:swiperefreshlayout:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    |    \--- androidx.interpolator:interpolator:1.0.0-rc01 (*)
+|         |    +--- androidx.asynclayoutinflater:asynclayoutinflater:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    |    \--- androidx.core:core:1.0.0-rc01 (*)
+|         |    \--- androidx.cursoradapter:cursoradapter:1.0.0-rc01
+|         |         \--- androidx.annotation:annotation:1.0.0-rc01
+|         \--- androidx.fragment:fragment:1.0.0-rc01
+|              +--- androidx.core:core:1.0.0-rc01 (*)
+|              +--- androidx.legacy:legacy-support-core-ui:1.0.0-rc01 (*)
+|              +--- androidx.legacy:legacy-support-core-utils:1.0.0-rc01 (*)
+|              +--- androidx.annotation:annotation:1.0.0-rc01
+|              +--- androidx.loader:loader:1.0.0-rc01 (*)
+|              \--- androidx.lifecycle:lifecycle-viewmodel:2.0.0-rc01
++--- project :path_provider
++--- project :flutter_webview_plugin
+\--- project :flutter_native_image
+
+debugCompileOnly - Compile only dependencies for compilation 'debug' (target  (androidJvm)).
+No dependencies
+
+debugCompileOnlyDependenciesMetadata
+No dependencies
+
+debugImplementation - Implementation only dependencies for compilation 'debug' (target  (androidJvm)). (n)
+No dependencies
+
+debugImplementationDependenciesMetadata
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.71
+|    \--- org.jetbrains.kotlin:kotlin-stdlib:1.2.71
+|         +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.71
+|         \--- org.jetbrains:annotations:13.0
++--- project :video_player FAILED
++--- project :fluttertoast FAILED
++--- project :shared_preferences FAILED
++--- project :sqflite FAILED
++--- project :image_picker FAILED
++--- project :path_provider FAILED
++--- project :flutter_webview_plugin FAILED
+\--- project :flutter_native_image FAILED
+
+debugMetadataElements (n)
+No dependencies
+
+debugMetadataValues - Metadata Values dependencies for the base Split
+No dependencies
+
+debugProvided - Provided dependencies for 'debug' sources (deprecated: use 'debugCompileOnly' instead). (n)
+No dependencies
+
+debugRuntime - Runtime dependencies for compilation 'debug' (target  (androidJvm)) (deprecated, use 'debugRuntimeOnly ' instead).
+No dependencies
+
+debugRuntimeClasspath - Runtime classpath of compilation 'debug' (target  (androidJvm)).
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.71
+|    \--- org.jetbrains.kotlin:kotlin-stdlib:1.2.71
+|         +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.71
+|         \--- org.jetbrains:annotations:13.0
++--- project :video_player
+|    +--- com.google.android.exoplayer:exoplayer-core:2.9.6
+|    |    \--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
+|    +--- com.google.android.exoplayer:exoplayer-hls:2.9.6
+|    |    +--- com.google.android.exoplayer:exoplayer-core:2.9.6 (*)
+|    |    \--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
+|    +--- com.google.android.exoplayer:exoplayer-dash:2.9.6
+|    |    +--- com.google.android.exoplayer:exoplayer-core:2.9.6 (*)
+|    |    \--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
+|    \--- com.google.android.exoplayer:exoplayer-smoothstreaming:2.9.6
+|         +--- com.google.android.exoplayer:exoplayer-core:2.9.6 (*)
+|         \--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
++--- project :fluttertoast
++--- project :shared_preferences
++--- project :sqflite
++--- project :image_picker
+|    \--- com.android.support:support-v4:27.1.1 -> androidx.legacy:legacy-support-v4:1.0.0-rc01
+|         +--- androidx.core:core:1.0.0-rc01 -> 1.0.0
+|         |    +--- androidx.annotation:annotation:1.0.0
+|         |    +--- androidx.collection:collection:1.0.0
+|         |    |    \--- androidx.annotation:annotation:1.0.0
+|         |    +--- androidx.lifecycle:lifecycle-runtime:2.0.0
+|         |    |    +--- androidx.lifecycle:lifecycle-common:2.0.0
+|         |    |    |    \--- androidx.annotation:annotation:1.0.0
+|         |    |    +--- androidx.arch.core:core-common:2.0.0
+|         |    |    |    \--- androidx.annotation:annotation:1.0.0
+|         |    |    \--- androidx.annotation:annotation:1.0.0
+|         |    \--- androidx.versionedparcelable:versionedparcelable:1.0.0
+|         |         +--- androidx.annotation:annotation:1.0.0
+|         |         \--- androidx.collection:collection:1.0.0 (*)
+|         +--- androidx.media:media:1.0.0-rc01
+|         |    +--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
+|         |    +--- androidx.core:core:1.0.0-rc01 -> 1.0.0 (*)
+|         |    \--- androidx.versionedparcelable:versionedparcelable:1.0.0-rc01 -> 1.0.0 (*)
+|         +--- androidx.legacy:legacy-support-core-utils:1.0.0-rc01 -> 1.0.0
+|         |    +--- androidx.annotation:annotation:1.0.0
+|         |    +--- androidx.core:core:1.0.0 (*)
+|         |    +--- androidx.documentfile:documentfile:1.0.0
+|         |    |    \--- androidx.annotation:annotation:1.0.0
+|         |    +--- androidx.loader:loader:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    +--- androidx.core:core:1.0.0 (*)
+|         |    |    +--- androidx.lifecycle:lifecycle-livedata:2.0.0
+|         |    |    |    +--- androidx.arch.core:core-runtime:2.0.0
+|         |    |    |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    |    |    \--- androidx.arch.core:core-common:2.0.0 (*)
+|         |    |    |    +--- androidx.lifecycle:lifecycle-livedata-core:2.0.0
+|         |    |    |    |    +--- androidx.lifecycle:lifecycle-common:2.0.0 (*)
+|         |    |    |    |    +--- androidx.arch.core:core-common:2.0.0 (*)
+|         |    |    |    |    \--- androidx.arch.core:core-runtime:2.0.0 (*)
+|         |    |    |    \--- androidx.arch.core:core-common:2.0.0 (*)
+|         |    |    \--- androidx.lifecycle:lifecycle-viewmodel:2.0.0
+|         |    |         \--- androidx.annotation:annotation:1.0.0
+|         |    +--- androidx.localbroadcastmanager:localbroadcastmanager:1.0.0
+|         |    |    \--- androidx.annotation:annotation:1.0.0
+|         |    \--- androidx.print:print:1.0.0
+|         |         \--- androidx.annotation:annotation:1.0.0
+|         +--- androidx.legacy:legacy-support-core-ui:1.0.0-rc01 -> 1.0.0
+|         |    +--- androidx.annotation:annotation:1.0.0
+|         |    +--- androidx.core:core:1.0.0 (*)
+|         |    +--- androidx.legacy:legacy-support-core-utils:1.0.0 (*)
+|         |    +--- androidx.customview:customview:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    \--- androidx.core:core:1.0.0 (*)
+|         |    +--- androidx.viewpager:viewpager:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    +--- androidx.core:core:1.0.0 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0 (*)
+|         |    +--- androidx.coordinatorlayout:coordinatorlayout:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    +--- androidx.core:core:1.0.0 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0 (*)
+|         |    +--- androidx.drawerlayout:drawerlayout:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    +--- androidx.core:core:1.0.0 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0 (*)
+|         |    +--- androidx.slidingpanelayout:slidingpanelayout:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    +--- androidx.core:core:1.0.0 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0 (*)
+|         |    +--- androidx.interpolator:interpolator:1.0.0
+|         |    |    \--- androidx.annotation:annotation:1.0.0
+|         |    +--- androidx.swiperefreshlayout:swiperefreshlayout:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    +--- androidx.core:core:1.0.0 (*)
+|         |    |    \--- androidx.interpolator:interpolator:1.0.0 (*)
+|         |    +--- androidx.asynclayoutinflater:asynclayoutinflater:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    \--- androidx.core:core:1.0.0 (*)
+|         |    \--- androidx.cursoradapter:cursoradapter:1.0.0
+|         |         \--- androidx.annotation:annotation:1.0.0
+|         \--- androidx.fragment:fragment:1.0.0-rc01 -> 1.0.0
+|              +--- androidx.core:core:1.0.0 (*)
+|              +--- androidx.legacy:legacy-support-core-ui:1.0.0 (*)
+|              +--- androidx.legacy:legacy-support-core-utils:1.0.0 (*)
+|              +--- androidx.annotation:annotation:1.0.0
+|              +--- androidx.loader:loader:1.0.0 (*)
+|              \--- androidx.lifecycle:lifecycle-viewmodel:2.0.0 (*)
++--- project :path_provider
++--- project :flutter_webview_plugin
+|    \--- androidx.appcompat:appcompat:1.0.0
+|         +--- androidx.annotation:annotation:1.0.0
+|         +--- androidx.core:core:1.0.0 (*)
+|         +--- androidx.collection:collection:1.0.0 (*)
+|         +--- androidx.cursoradapter:cursoradapter:1.0.0 (*)
+|         +--- androidx.legacy:legacy-support-core-utils:1.0.0 (*)
+|         +--- androidx.fragment:fragment:1.0.0 (*)
+|         +--- androidx.vectordrawable:vectordrawable:1.0.0
+|         |    +--- androidx.annotation:annotation:1.0.0
+|         |    \--- androidx.core:core:1.0.0 (*)
+|         \--- androidx.vectordrawable:vectordrawable-animated:1.0.0
+|              +--- androidx.vectordrawable:vectordrawable:1.0.0 (*)
+|              \--- androidx.legacy:legacy-support-core-ui:1.0.0 (*)
+\--- project :flutter_native_image
+
+debugRuntimeElements - Runtime elements for debug (n)
+No dependencies
+
+debugRuntimeOnly - Runtime only dependencies for compilation 'debug' (target  (androidJvm)). (n)
+No dependencies
+
+debugRuntimeOnlyDependenciesMetadata
+No dependencies
+
+debugUnitTestAnnotationProcessorClasspath - Resolved configuration for annotation-processor for variant: debugUnitTest
+No dependencies
+
+debugUnitTestApi - API dependencies for compilation 'debugUnitTest' (target  (androidJvm)). (n)
+No dependencies
+
+debugUnitTestApiDependenciesMetadata
+No dependencies
+
+debugUnitTestCompile - Dependencies for compilation 'debugUnitTest' (target  (androidJvm)) (deprecated, use 'debugUnitTestImplementation ' instead).
+No dependencies
+
+debugUnitTestCompileClasspath - Compile classpath for compilation 'debugUnitTest' (target  (androidJvm)).
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.71
+|    \--- org.jetbrains.kotlin:kotlin-stdlib:1.2.71
+|         +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.71
+|         \--- org.jetbrains:annotations:13.0
++--- project :video_player
++--- project :fluttertoast
++--- project :shared_preferences
++--- project :sqflite
++--- project :image_picker
+|    \--- com.android.support:support-v4:27.1.1 -> androidx.legacy:legacy-support-v4:1.0.0-rc01
+|         +--- androidx.core:core:1.0.0-rc01
+|         |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    +--- androidx.collection:collection:1.0.0-rc01
+|         |    |    \--- androidx.annotation:annotation:1.0.0-rc01
+|         |    +--- androidx.lifecycle:lifecycle-runtime:2.0.0-rc01
+|         |    |    +--- androidx.lifecycle:lifecycle-common:2.0.0-rc01
+|         |    |    \--- androidx.arch.core:core-common:2.0.0-rc01
+|         |    \--- androidx.versionedparcelable:versionedparcelable:1.0.0-rc01
+|         |         +--- androidx.annotation:annotation:1.0.0-rc01
+|         |         \--- androidx.collection:collection:1.0.0-rc01 (*)
+|         +--- androidx.media:media:1.0.0-rc01
+|         |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    \--- androidx.versionedparcelable:versionedparcelable:1.0.0-rc01 (*)
+|         +--- androidx.legacy:legacy-support-core-utils:1.0.0-rc01
+|         |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    +--- androidx.documentfile:documentfile:1.0.0-rc01
+|         |    |    \--- androidx.annotation:annotation:1.0.0-rc01
+|         |    +--- androidx.loader:loader:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    |    +--- androidx.lifecycle:lifecycle-livedata-core:2.0.0-rc01
+|         |    |    |    +--- androidx.lifecycle:lifecycle-common:2.0.0-rc01
+|         |    |    |    +--- androidx.arch.core:core-common:2.0.0-rc01
+|         |    |    |    \--- androidx.arch.core:core-runtime:2.0.0-rc01
+|         |    |    |         \--- androidx.arch.core:core-common:2.0.0-rc01
+|         |    |    \--- androidx.lifecycle:lifecycle-viewmodel:2.0.0-rc01
+|         |    +--- androidx.localbroadcastmanager:localbroadcastmanager:1.0.0-rc01
+|         |    |    \--- androidx.annotation:annotation:1.0.0-rc01
+|         |    \--- androidx.print:print:1.0.0-rc01
+|         |         \--- androidx.annotation:annotation:1.0.0-rc01
+|         +--- androidx.legacy:legacy-support-core-ui:1.0.0-rc01
+|         |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    +--- androidx.legacy:legacy-support-core-utils:1.0.0-rc01 (*)
+|         |    +--- androidx.customview:customview:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    |    \--- androidx.core:core:1.0.0-rc01 (*)
+|         |    +--- androidx.viewpager:viewpager:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0-rc01 (*)
+|         |    +--- androidx.coordinatorlayout:coordinatorlayout:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0-rc01 (*)
+|         |    +--- androidx.drawerlayout:drawerlayout:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0-rc01 (*)
+|         |    +--- androidx.slidingpanelayout:slidingpanelayout:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0-rc01 (*)
+|         |    +--- androidx.interpolator:interpolator:1.0.0-rc01
+|         |    |    \--- androidx.annotation:annotation:1.0.0-rc01
+|         |    +--- androidx.swiperefreshlayout:swiperefreshlayout:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    |    \--- androidx.interpolator:interpolator:1.0.0-rc01 (*)
+|         |    +--- androidx.asynclayoutinflater:asynclayoutinflater:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    |    \--- androidx.core:core:1.0.0-rc01 (*)
+|         |    \--- androidx.cursoradapter:cursoradapter:1.0.0-rc01
+|         |         \--- androidx.annotation:annotation:1.0.0-rc01
+|         \--- androidx.fragment:fragment:1.0.0-rc01
+|              +--- androidx.core:core:1.0.0-rc01 (*)
+|              +--- androidx.legacy:legacy-support-core-ui:1.0.0-rc01 (*)
+|              +--- androidx.legacy:legacy-support-core-utils:1.0.0-rc01 (*)
+|              +--- androidx.annotation:annotation:1.0.0-rc01
+|              +--- androidx.loader:loader:1.0.0-rc01 (*)
+|              \--- androidx.lifecycle:lifecycle-viewmodel:2.0.0-rc01
++--- project :path_provider
++--- project :flutter_webview_plugin
++--- project :flutter_native_image
+\--- junit:junit:4.12
+     \--- org.hamcrest:hamcrest-core:1.3
+
+debugUnitTestCompileOnly - Compile only dependencies for compilation 'debugUnitTest' (target  (androidJvm)).
+No dependencies
+
+debugUnitTestCompileOnlyDependenciesMetadata
+No dependencies
+
+debugUnitTestImplementation - Implementation only dependencies for compilation 'debugUnitTest' (target  (androidJvm)). (n)
+No dependencies
+
+debugUnitTestImplementationDependenciesMetadata
+\--- junit:junit:4.12
+     \--- org.hamcrest:hamcrest-core:1.3
+
+debugUnitTestRuntime - Runtime dependencies for compilation 'debugUnitTest' (target  (androidJvm)) (deprecated, use 'debugUnitTestRuntimeOnly ' instead).
+No dependencies
+
+debugUnitTestRuntimeClasspath - Runtime classpath of compilation 'debugUnitTest' (target  (androidJvm)).
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.71
+|    \--- org.jetbrains.kotlin:kotlin-stdlib:1.2.71
+|         +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.71
+|         \--- org.jetbrains:annotations:13.0
++--- project :video_player
+|    +--- com.google.android.exoplayer:exoplayer-core:2.9.6
+|    |    \--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
+|    +--- com.google.android.exoplayer:exoplayer-hls:2.9.6
+|    |    +--- com.google.android.exoplayer:exoplayer-core:2.9.6 (*)
+|    |    \--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
+|    +--- com.google.android.exoplayer:exoplayer-dash:2.9.6
+|    |    +--- com.google.android.exoplayer:exoplayer-core:2.9.6 (*)
+|    |    \--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
+|    \--- com.google.android.exoplayer:exoplayer-smoothstreaming:2.9.6
+|         +--- com.google.android.exoplayer:exoplayer-core:2.9.6 (*)
+|         \--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
++--- project :fluttertoast
++--- project :shared_preferences
++--- project :sqflite
++--- project :image_picker
+|    \--- com.android.support:support-v4:27.1.1 -> androidx.legacy:legacy-support-v4:1.0.0-rc01
+|         +--- androidx.core:core:1.0.0-rc01 -> 1.0.0
+|         |    +--- androidx.annotation:annotation:1.0.0
+|         |    +--- androidx.collection:collection:1.0.0
+|         |    |    \--- androidx.annotation:annotation:1.0.0
+|         |    +--- androidx.lifecycle:lifecycle-runtime:2.0.0
+|         |    |    +--- androidx.lifecycle:lifecycle-common:2.0.0
+|         |    |    |    \--- androidx.annotation:annotation:1.0.0
+|         |    |    +--- androidx.arch.core:core-common:2.0.0
+|         |    |    |    \--- androidx.annotation:annotation:1.0.0
+|         |    |    \--- androidx.annotation:annotation:1.0.0
+|         |    \--- androidx.versionedparcelable:versionedparcelable:1.0.0
+|         |         +--- androidx.annotation:annotation:1.0.0
+|         |         \--- androidx.collection:collection:1.0.0 (*)
+|         +--- androidx.media:media:1.0.0-rc01
+|         |    +--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
+|         |    +--- androidx.core:core:1.0.0-rc01 -> 1.0.0 (*)
+|         |    \--- androidx.versionedparcelable:versionedparcelable:1.0.0-rc01 -> 1.0.0 (*)
+|         +--- androidx.legacy:legacy-support-core-utils:1.0.0-rc01 -> 1.0.0
+|         |    +--- androidx.annotation:annotation:1.0.0
+|         |    +--- androidx.core:core:1.0.0 (*)
+|         |    +--- androidx.documentfile:documentfile:1.0.0
+|         |    |    \--- androidx.annotation:annotation:1.0.0
+|         |    +--- androidx.loader:loader:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    +--- androidx.core:core:1.0.0 (*)
+|         |    |    +--- androidx.lifecycle:lifecycle-livedata:2.0.0
+|         |    |    |    +--- androidx.arch.core:core-runtime:2.0.0
+|         |    |    |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    |    |    \--- androidx.arch.core:core-common:2.0.0 (*)
+|         |    |    |    +--- androidx.lifecycle:lifecycle-livedata-core:2.0.0
+|         |    |    |    |    +--- androidx.lifecycle:lifecycle-common:2.0.0 (*)
+|         |    |    |    |    +--- androidx.arch.core:core-common:2.0.0 (*)
+|         |    |    |    |    \--- androidx.arch.core:core-runtime:2.0.0 (*)
+|         |    |    |    \--- androidx.arch.core:core-common:2.0.0 (*)
+|         |    |    \--- androidx.lifecycle:lifecycle-viewmodel:2.0.0
+|         |    |         \--- androidx.annotation:annotation:1.0.0
+|         |    +--- androidx.localbroadcastmanager:localbroadcastmanager:1.0.0
+|         |    |    \--- androidx.annotation:annotation:1.0.0
+|         |    \--- androidx.print:print:1.0.0
+|         |         \--- androidx.annotation:annotation:1.0.0
+|         +--- androidx.legacy:legacy-support-core-ui:1.0.0-rc01 -> 1.0.0
+|         |    +--- androidx.annotation:annotation:1.0.0
+|         |    +--- androidx.core:core:1.0.0 (*)
+|         |    +--- androidx.legacy:legacy-support-core-utils:1.0.0 (*)
+|         |    +--- androidx.customview:customview:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    \--- androidx.core:core:1.0.0 (*)
+|         |    +--- androidx.viewpager:viewpager:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    +--- androidx.core:core:1.0.0 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0 (*)
+|         |    +--- androidx.coordinatorlayout:coordinatorlayout:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    +--- androidx.core:core:1.0.0 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0 (*)
+|         |    +--- androidx.drawerlayout:drawerlayout:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    +--- androidx.core:core:1.0.0 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0 (*)
+|         |    +--- androidx.slidingpanelayout:slidingpanelayout:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    +--- androidx.core:core:1.0.0 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0 (*)
+|         |    +--- androidx.interpolator:interpolator:1.0.0
+|         |    |    \--- androidx.annotation:annotation:1.0.0
+|         |    +--- androidx.swiperefreshlayout:swiperefreshlayout:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    +--- androidx.core:core:1.0.0 (*)
+|         |    |    \--- androidx.interpolator:interpolator:1.0.0 (*)
+|         |    +--- androidx.asynclayoutinflater:asynclayoutinflater:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    \--- androidx.core:core:1.0.0 (*)
+|         |    \--- androidx.cursoradapter:cursoradapter:1.0.0
+|         |         \--- androidx.annotation:annotation:1.0.0
+|         \--- androidx.fragment:fragment:1.0.0-rc01 -> 1.0.0
+|              +--- androidx.core:core:1.0.0 (*)
+|              +--- androidx.legacy:legacy-support-core-ui:1.0.0 (*)
+|              +--- androidx.legacy:legacy-support-core-utils:1.0.0 (*)
+|              +--- androidx.annotation:annotation:1.0.0
+|              +--- androidx.loader:loader:1.0.0 (*)
+|              \--- androidx.lifecycle:lifecycle-viewmodel:2.0.0 (*)
++--- project :path_provider
++--- project :flutter_webview_plugin
+|    \--- androidx.appcompat:appcompat:1.0.0
+|         +--- androidx.annotation:annotation:1.0.0
+|         +--- androidx.core:core:1.0.0 (*)
+|         +--- androidx.collection:collection:1.0.0 (*)
+|         +--- androidx.cursoradapter:cursoradapter:1.0.0 (*)
+|         +--- androidx.legacy:legacy-support-core-utils:1.0.0 (*)
+|         +--- androidx.fragment:fragment:1.0.0 (*)
+|         +--- androidx.vectordrawable:vectordrawable:1.0.0
+|         |    +--- androidx.annotation:annotation:1.0.0
+|         |    \--- androidx.core:core:1.0.0 (*)
+|         \--- androidx.vectordrawable:vectordrawable-animated:1.0.0
+|              +--- androidx.vectordrawable:vectordrawable:1.0.0 (*)
+|              \--- androidx.legacy:legacy-support-core-ui:1.0.0 (*)
++--- project :flutter_native_image
+\--- junit:junit:4.12
+     \--- org.hamcrest:hamcrest-core:1.3
+
+debugUnitTestRuntimeOnly - Runtime only dependencies for compilation 'debugUnitTest' (target  (androidJvm)). (n)
+No dependencies
+
+debugUnitTestRuntimeOnlyDependenciesMetadata
+No dependencies
+
+debugWearApp - Link to a wear app to embed for object 'debug'. (n)
+No dependencies
+
+debugWearBundling - Resolved Configuration for wear app bundling for variant: debug
+No dependencies
+
+default - Configuration for default artifacts.
+No dependencies
+
+implementation - Implementation only dependencies for 'main' sources. (n)
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.71 (n)
++--- project video_player (n)
++--- project fluttertoast (n)
++--- project shared_preferences (n)
++--- project sqflite (n)
++--- project image_picker (n)
++--- project path_provider (n)
++--- project flutter_webview_plugin (n)
+\--- project flutter_native_image (n)
+
+implementationDependenciesMetadata
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.71
+|    \--- org.jetbrains.kotlin:kotlin-stdlib:1.2.71
+|         +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.71
+|         \--- org.jetbrains:annotations:13.0
++--- project :video_player FAILED
++--- project :fluttertoast FAILED
++--- project :shared_preferences FAILED
++--- project :sqflite FAILED
++--- project :image_picker FAILED
++--- project :path_provider FAILED
++--- project :flutter_webview_plugin FAILED
+\--- project :flutter_native_image FAILED
+
+kapt
+No dependencies
+
+kaptAndroidTest
+No dependencies
+
+kaptAndroidTestDebug
+No dependencies
+
+kaptDebug
+No dependencies
+
+kaptProfile
+No dependencies
+
+kaptRelease
+No dependencies
+
+kaptTest
+No dependencies
+
+kaptTestDebug
+No dependencies
+
+kaptTestProfile
+No dependencies
+
+kaptTestRelease
+No dependencies
+
+kotlinCompilerClasspath
+\--- org.jetbrains.kotlin:kotlin-compiler-embeddable:1.2.71
+     +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.71
+     |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.71
+     |    \--- org.jetbrains:annotations:13.0
+     +--- org.jetbrains.kotlin:kotlin-script-runtime:1.2.71
+     \--- org.jetbrains.kotlin:kotlin-reflect:1.2.71
+          \--- org.jetbrains.kotlin:kotlin-stdlib:1.2.71 (*)
+
+kotlinCompilerPluginClasspath
+No dependencies
+
+lintChecks - Configuration to apply external lint check jar
+No dependencies
+
+lintClassPath - The lint embedded classpath
+\--- com.android.tools.lint:lint-gradle:26.2.1
+     +--- com.android.tools:sdk-common:26.2.1
+     |    +--- com.android.tools:sdklib:26.2.1
+     |    |    +--- com.android.tools.layoutlib:layoutlib-api:26.2.1
+     |    |    |    +--- com.android.tools:common:26.2.1
+     |    |    |    |    +--- com.android.tools:annotations:26.2.1
+     |    |    |    |    +--- com.google.guava:guava:23.0
+     |    |    |    |    |    +--- com.google.code.findbugs:jsr305:1.3.9
+     |    |    |    |    |    +--- com.google.errorprone:error_prone_annotations:2.0.18
+     |    |    |    |    |    +--- com.google.j2objc:j2objc-annotations:1.1
+     |    |    |    |    |    \--- org.codehaus.mojo:animal-sniffer-annotations:1.14
+     |    |    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.71
+     |    |    |    |         +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.71
+     |    |    |    |         |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.71
+     |    |    |    |         |    \--- org.jetbrains:annotations:13.0
+     |    |    |    |         \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.71
+     |    |    |    |              \--- org.jetbrains.kotlin:kotlin-stdlib:1.2.71 (*)
+     |    |    |    +--- net.sf.kxml:kxml2:2.3.0
+     |    |    |    +--- com.android.tools:annotations:26.2.1
+     |    |    |    \--- org.jetbrains:annotations:13.0
+     |    |    +--- com.android.tools:dvlib:26.2.1
+     |    |    |    \--- com.android.tools:common:26.2.1 (*)
+     |    |    +--- com.android.tools:repository:26.2.1
+     |    |    |    +--- com.android.tools:common:26.2.1 (*)
+     |    |    |    +--- com.sun.activation:javax.activation:1.2.0
+     |    |    |    +--- org.apache.commons:commons-compress:1.12
+     |    |    |    +--- org.glassfish.jaxb:jaxb-runtime:2.2.11
+     |    |    |    |    +--- org.glassfish.jaxb:jaxb-core:2.2.11
+     |    |    |    |    |    +--- javax.xml.bind:jaxb-api:2.2.12-b140109.1041
+     |    |    |    |    |    +--- org.glassfish.jaxb:txw2:2.2.11
+     |    |    |    |    |    \--- com.sun.istack:istack-commons-runtime:2.21
+     |    |    |    |    +--- org.jvnet.staxex:stax-ex:1.7.7
+     |    |    |    |    \--- com.sun.xml.fastinfoset:FastInfoset:1.2.13
+     |    |    |    +--- com.google.jimfs:jimfs:1.1
+     |    |    |    |    \--- com.google.guava:guava:18.0 -> 23.0 (*)
+     |    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.71 (*)
+     |    |    +--- com.google.code.gson:gson:2.8.0
+     |    |    +--- org.apache.commons:commons-compress:1.12
+     |    |    +--- org.apache.httpcomponents:httpmime:4.5.2
+     |    |    |    \--- org.apache.httpcomponents:httpclient:4.5.2
+     |    |    |         +--- org.apache.httpcomponents:httpcore:4.4.4 -> 4.4.5
+     |    |    |         +--- commons-logging:commons-logging:1.2
+     |    |    |         \--- commons-codec:commons-codec:1.9
+     |    |    \--- org.apache.httpcomponents:httpcore:4.4.5
+     |    +--- com.android.tools.build:builder-test-api:3.2.1
+     |    |    \--- com.android.tools.ddms:ddmlib:26.2.1
+     |    |         +--- com.android.tools:common:26.2.1 (*)
+     |    |         \--- net.sf.kxml:kxml2:2.3.0
+     |    +--- com.android.tools.build:builder-model:3.2.1
+     |    |    \--- com.android.tools:annotations:26.2.1
+     |    +--- com.android.tools.ddms:ddmlib:26.2.1 (*)
+     |    +--- org.bouncycastle:bcpkix-jdk15on:1.56
+     |    |    \--- org.bouncycastle:bcprov-jdk15on:1.56
+     |    +--- org.bouncycastle:bcprov-jdk15on:1.56
+     |    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.71 (*)
+     |    +--- org.jetbrains.kotlin:kotlin-reflect:1.2.0
+     |    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.2.0 -> 1.2.71 (*)
+     |    +--- com.google.protobuf:protobuf-java:3.4.0
+     |    \--- javax.inject:javax.inject:1
+     +--- com.android.tools.build:builder:3.2.1
+     |    +--- com.android.tools.build:builder-model:3.2.1 (*)
+     |    +--- com.android.tools.build:builder-test-api:3.2.1 (*)
+     |    +--- com.android.tools:sdklib:26.2.1 (*)
+     |    +--- com.android.tools:sdk-common:26.2.1 (*)
+     |    +--- com.android.tools:common:26.2.1 (*)
+     |    +--- com.android.tools.build:manifest-merger:26.2.1
+     |    |    +--- com.android.tools:common:26.2.1 (*)
+     |    |    +--- com.android.tools:sdklib:26.2.1 (*)
+     |    |    +--- com.android.tools:sdk-common:26.2.1 (*)
+     |    |    +--- com.google.code.gson:gson:2.8.0
+     |    |    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.71 (*)
+     |    |    \--- net.sf.kxml:kxml2:2.3.0
+     |    +--- com.android.tools.ddms:ddmlib:26.2.1 (*)
+     |    +--- com.android.tools.analytics-library:protos:26.2.1
+     |    |    \--- com.google.protobuf:protobuf-java:3.4.0
+     |    +--- com.android.tools.analytics-library:shared:26.2.1
+     |    |    +--- com.android.tools.analytics-library:protos:26.2.1 (*)
+     |    |    +--- com.android.tools:annotations:26.2.1
+     |    |    +--- com.android.tools:common:26.2.1 (*)
+     |    |    +--- com.google.guava:guava:23.0 (*)
+     |    |    \--- com.google.code.gson:gson:2.8.0
+     |    +--- com.android.tools.analytics-library:tracker:26.2.1
+     |    |    +--- com.android.tools:annotations:26.2.1
+     |    |    +--- com.android.tools:common:26.2.1 (*)
+     |    |    +--- com.android.tools.analytics-library:protos:26.2.1 (*)
+     |    |    +--- com.android.tools.analytics-library:shared:26.2.1 (*)
+     |    |    +--- com.google.protobuf:protobuf-java:3.4.0
+     |    |    \--- com.google.guava:guava:23.0 (*)
+     |    +--- com.android.tools.build:apksig:3.2.1
+     |    +--- com.android.tools.build:apkzlib:3.2.1
+     |    |    +--- com.google.code.findbugs:jsr305:1.3.9
+     |    |    +--- com.google.guava:guava:23.0 (*)
+     |    |    +--- org.bouncycastle:bcpkix-jdk15on:1.56 (*)
+     |    |    +--- org.bouncycastle:bcprov-jdk15on:1.56
+     |    |    \--- com.android.tools.build:apksig:3.2.1
+     |    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.71 (*)
+     |    +--- com.squareup:javawriter:2.5.0
+     |    +--- org.bouncycastle:bcpkix-jdk15on:1.56 (*)
+     |    +--- org.bouncycastle:bcprov-jdk15on:1.56
+     |    +--- org.ow2.asm:asm:6.0
+     |    +--- org.ow2.asm:asm-tree:6.0
+     |    |    \--- org.ow2.asm:asm:6.0
+     |    +--- org.ow2.asm:asm-commons:6.0
+     |    |    \--- org.ow2.asm:asm-tree:6.0 (*)
+     |    +--- org.ow2.asm:asm-util:6.0
+     |    |    \--- org.ow2.asm:asm-tree:6.0 (*)
+     |    +--- it.unimi.dsi:fastutil:7.2.0
+     |    +--- net.sf.jopt-simple:jopt-simple:4.9
+     |    \--- com.googlecode.json-simple:json-simple:1.1
+     +--- com.android.tools.build:builder-model:3.2.1 (*)
+     +--- com.android.tools.external.com-intellij:intellij-core:26.2.1
+     |    \--- org.jetbrains.trove4j:trove4j:20160824
+     +--- com.android.tools.external.org-jetbrains:uast:26.2.1
+     +--- com.android.tools.build:manifest-merger:26.2.1 (*)
+     +--- com.android.tools.lint:lint:26.2.1
+     |    +--- com.android.tools.lint:lint-checks:26.2.1
+     |    |    +--- com.android.tools.lint:lint-api:26.2.1
+     |    |    |    +--- com.android.tools:sdk-common:26.2.1 (*)
+     |    |    |    +--- com.android.tools.build:builder-model:3.2.1 (*)
+     |    |    |    +--- com.google.guava:guava:23.0 (*)
+     |    |    |    +--- com.android.tools.lint:lint-kotlin:26.2.1
+     |    |    |    |    +--- com.android.tools.external.com-intellij:intellij-core:26.2.1 (*)
+     |    |    |    |    +--- com.android.tools.external.com-intellij:kotlin-compiler:26.2.1
+     |    |    |    |    +--- com.android.tools.external.org-jetbrains:uast:26.2.1
+     |    |    |    |    +--- org.jetbrains.kotlin:kotlin-reflect:1.2.0 (*)
+     |    |    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.71 (*)
+     |    |    |    +--- com.android.tools.external.com-intellij:intellij-core:26.2.1 (*)
+     |    |    |    +--- com.android.tools.external.org-jetbrains:uast:26.2.1
+     |    |    |    +--- com.android.tools.build:manifest-merger:26.2.1 (*)
+     |    |    |    +--- org.ow2.asm:asm:6.0
+     |    |    |    +--- org.ow2.asm:asm-tree:6.0 (*)
+     |    |    |    +--- org.jetbrains.kotlin:kotlin-reflect:1.2.0 (*)
+     |    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.71 (*)
+     |    |    +--- com.google.guava:guava:23.0 (*)
+     |    |    +--- com.android.tools.external.com-intellij:intellij-core:26.2.1 (*)
+     |    |    +--- com.android.tools.external.org-jetbrains:uast:26.2.1
+     |    |    \--- org.ow2.asm:asm-analysis:6.0
+     |    |         \--- org.ow2.asm:asm-tree:6.0 (*)
+     |    +--- com.android.tools.lint:lint-kotlin:26.2.1 (*)
+     |    +--- com.google.guava:guava:23.0 (*)
+     |    +--- com.android.tools.external.org-jetbrains:uast:26.2.1
+     |    +--- com.android.tools.external.com-intellij:kotlin-compiler:26.2.1
+     |    +--- com.android.tools.build:manifest-merger:26.2.1 (*)
+     |    +--- com.android.tools.analytics-library:shared:26.2.1 (*)
+     |    +--- com.android.tools.analytics-library:protos:26.2.1 (*)
+     |    +--- com.android.tools.analytics-library:tracker:26.2.1 (*)
+     |    +--- org.jetbrains.kotlin:kotlin-reflect:1.2.0 (*)
+     |    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.71 (*)
+     +--- com.android.tools.lint:lint-gradle-api:26.2.1
+     |    +--- com.android.tools:sdklib:26.2.1 (*)
+     |    +--- com.android.tools.build:builder-model:3.2.1 (*)
+     |    +--- com.android.tools.build:gradle-api:3.2.1
+     |    |    +--- com.android.tools.build:builder-model:3.2.1 (*)
+     |    |    +--- com.android.tools.build:builder-test-api:3.2.1 (*)
+     |    |    +--- com.google.guava:guava:23.0 (*)
+     |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.71 (*)
+     |    +--- org.jetbrains.kotlin:kotlin-reflect:1.2.0 (*)
+     |    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.71 (*)
+     |    \--- com.google.guava:guava:23.0 (*)
+     +--- org.codehaus.groovy:groovy-all:2.4.12
+     +--- org.jetbrains.kotlin:kotlin-reflect:1.2.0 (*)
+     \--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.71 (*)
+
+profileAnnotationProcessor - Classpath for the annotation processor for 'profile'. (n)
+No dependencies
+
+profileAnnotationProcessorClasspath - Resolved configuration for annotation-processor for variant: profile
+No dependencies
+
+profileApi - API dependencies for compilation 'profile' (target  (androidJvm)). (n)
++--- unspecified (n)
+\--- unspecified (n)
+
+profileApiDependenciesMetadata
+No dependencies
+
+profileApiElements - API elements for profile (n)
+No dependencies
+
+profileApk - Apk dependencies for 'profile' sources (deprecated: use 'profileRuntimeOnly' instead). (n)
+No dependencies
+
+profileBundleElements - Bundle elements for profile (n)
+No dependencies
+
+profileCompile - Dependencies for compilation 'profile' (target  (androidJvm)) (deprecated, use 'profileImplementation ' instead).
+No dependencies
+
+profileCompileClasspath - Compile classpath for compilation 'profile' (target  (androidJvm)).
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.71
+|    \--- org.jetbrains.kotlin:kotlin-stdlib:1.2.71
+|         +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.71
+|         \--- org.jetbrains:annotations:13.0
++--- project :video_player
++--- project :fluttertoast
++--- project :shared_preferences
++--- project :sqflite
++--- project :image_picker
+|    \--- com.android.support:support-v4:27.1.1 -> androidx.legacy:legacy-support-v4:1.0.0-rc01
+|         +--- androidx.core:core:1.0.0-rc01
+|         |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    +--- androidx.collection:collection:1.0.0-rc01
+|         |    |    \--- androidx.annotation:annotation:1.0.0-rc01
+|         |    +--- androidx.lifecycle:lifecycle-runtime:2.0.0-rc01
+|         |    |    +--- androidx.lifecycle:lifecycle-common:2.0.0-rc01
+|         |    |    \--- androidx.arch.core:core-common:2.0.0-rc01
+|         |    \--- androidx.versionedparcelable:versionedparcelable:1.0.0-rc01
+|         |         +--- androidx.annotation:annotation:1.0.0-rc01
+|         |         \--- androidx.collection:collection:1.0.0-rc01 (*)
+|         +--- androidx.media:media:1.0.0-rc01
+|         |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    \--- androidx.versionedparcelable:versionedparcelable:1.0.0-rc01 (*)
+|         +--- androidx.legacy:legacy-support-core-utils:1.0.0-rc01
+|         |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    +--- androidx.documentfile:documentfile:1.0.0-rc01
+|         |    |    \--- androidx.annotation:annotation:1.0.0-rc01
+|         |    +--- androidx.loader:loader:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    |    +--- androidx.lifecycle:lifecycle-livedata-core:2.0.0-rc01
+|         |    |    |    +--- androidx.lifecycle:lifecycle-common:2.0.0-rc01
+|         |    |    |    +--- androidx.arch.core:core-common:2.0.0-rc01
+|         |    |    |    \--- androidx.arch.core:core-runtime:2.0.0-rc01
+|         |    |    |         \--- androidx.arch.core:core-common:2.0.0-rc01
+|         |    |    \--- androidx.lifecycle:lifecycle-viewmodel:2.0.0-rc01
+|         |    +--- androidx.localbroadcastmanager:localbroadcastmanager:1.0.0-rc01
+|         |    |    \--- androidx.annotation:annotation:1.0.0-rc01
+|         |    \--- androidx.print:print:1.0.0-rc01
+|         |         \--- androidx.annotation:annotation:1.0.0-rc01
+|         +--- androidx.legacy:legacy-support-core-ui:1.0.0-rc01
+|         |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    +--- androidx.legacy:legacy-support-core-utils:1.0.0-rc01 (*)
+|         |    +--- androidx.customview:customview:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    |    \--- androidx.core:core:1.0.0-rc01 (*)
+|         |    +--- androidx.viewpager:viewpager:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0-rc01 (*)
+|         |    +--- androidx.coordinatorlayout:coordinatorlayout:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0-rc01 (*)
+|         |    +--- androidx.drawerlayout:drawerlayout:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0-rc01 (*)
+|         |    +--- androidx.slidingpanelayout:slidingpanelayout:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0-rc01 (*)
+|         |    +--- androidx.interpolator:interpolator:1.0.0-rc01
+|         |    |    \--- androidx.annotation:annotation:1.0.0-rc01
+|         |    +--- androidx.swiperefreshlayout:swiperefreshlayout:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    |    \--- androidx.interpolator:interpolator:1.0.0-rc01 (*)
+|         |    +--- androidx.asynclayoutinflater:asynclayoutinflater:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    |    \--- androidx.core:core:1.0.0-rc01 (*)
+|         |    \--- androidx.cursoradapter:cursoradapter:1.0.0-rc01
+|         |         \--- androidx.annotation:annotation:1.0.0-rc01
+|         \--- androidx.fragment:fragment:1.0.0-rc01
+|              +--- androidx.core:core:1.0.0-rc01 (*)
+|              +--- androidx.legacy:legacy-support-core-ui:1.0.0-rc01 (*)
+|              +--- androidx.legacy:legacy-support-core-utils:1.0.0-rc01 (*)
+|              +--- androidx.annotation:annotation:1.0.0-rc01
+|              +--- androidx.loader:loader:1.0.0-rc01 (*)
+|              \--- androidx.lifecycle:lifecycle-viewmodel:2.0.0-rc01
++--- project :path_provider
++--- project :flutter_webview_plugin
+\--- project :flutter_native_image
+
+profileCompileOnly - Compile only dependencies for compilation 'profile' (target  (androidJvm)).
+No dependencies
+
+profileCompileOnlyDependenciesMetadata
+No dependencies
+
+profileImplementation - Implementation only dependencies for compilation 'profile' (target  (androidJvm)). (n)
+No dependencies
+
+profileImplementationDependenciesMetadata
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.71
+|    \--- org.jetbrains.kotlin:kotlin-stdlib:1.2.71
+|         +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.71
+|         \--- org.jetbrains:annotations:13.0
++--- project :video_player FAILED
++--- project :fluttertoast FAILED
++--- project :shared_preferences FAILED
++--- project :sqflite FAILED
++--- project :image_picker FAILED
++--- project :path_provider FAILED
++--- project :flutter_webview_plugin FAILED
+\--- project :flutter_native_image FAILED
+
+profileMetadataElements (n)
+No dependencies
+
+profileMetadataValues - Metadata Values dependencies for the base Split
+No dependencies
+
+profileProvided - Provided dependencies for 'profile' sources (deprecated: use 'profileCompileOnly' instead). (n)
+No dependencies
+
+profileRuntime - Runtime dependencies for compilation 'profile' (target  (androidJvm)) (deprecated, use 'profileRuntimeOnly ' instead).
+No dependencies
+
+profileRuntimeClasspath - Runtime classpath of compilation 'profile' (target  (androidJvm)).
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.71
+|    \--- org.jetbrains.kotlin:kotlin-stdlib:1.2.71
+|         +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.71
+|         \--- org.jetbrains:annotations:13.0
++--- project :video_player
+|    +--- com.google.android.exoplayer:exoplayer-core:2.9.6
+|    |    \--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
+|    +--- com.google.android.exoplayer:exoplayer-hls:2.9.6
+|    |    +--- com.google.android.exoplayer:exoplayer-core:2.9.6 (*)
+|    |    \--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
+|    +--- com.google.android.exoplayer:exoplayer-dash:2.9.6
+|    |    +--- com.google.android.exoplayer:exoplayer-core:2.9.6 (*)
+|    |    \--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
+|    \--- com.google.android.exoplayer:exoplayer-smoothstreaming:2.9.6
+|         +--- com.google.android.exoplayer:exoplayer-core:2.9.6 (*)
+|         \--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
++--- project :fluttertoast
++--- project :shared_preferences
++--- project :sqflite
++--- project :image_picker
+|    \--- com.android.support:support-v4:27.1.1 -> androidx.legacy:legacy-support-v4:1.0.0-rc01
+|         +--- androidx.core:core:1.0.0-rc01 -> 1.0.0
+|         |    +--- androidx.annotation:annotation:1.0.0
+|         |    +--- androidx.collection:collection:1.0.0
+|         |    |    \--- androidx.annotation:annotation:1.0.0
+|         |    +--- androidx.lifecycle:lifecycle-runtime:2.0.0
+|         |    |    +--- androidx.lifecycle:lifecycle-common:2.0.0
+|         |    |    |    \--- androidx.annotation:annotation:1.0.0
+|         |    |    +--- androidx.arch.core:core-common:2.0.0
+|         |    |    |    \--- androidx.annotation:annotation:1.0.0
+|         |    |    \--- androidx.annotation:annotation:1.0.0
+|         |    \--- androidx.versionedparcelable:versionedparcelable:1.0.0
+|         |         +--- androidx.annotation:annotation:1.0.0
+|         |         \--- androidx.collection:collection:1.0.0 (*)
+|         +--- androidx.media:media:1.0.0-rc01
+|         |    +--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
+|         |    +--- androidx.core:core:1.0.0-rc01 -> 1.0.0 (*)
+|         |    \--- androidx.versionedparcelable:versionedparcelable:1.0.0-rc01 -> 1.0.0 (*)
+|         +--- androidx.legacy:legacy-support-core-utils:1.0.0-rc01 -> 1.0.0
+|         |    +--- androidx.annotation:annotation:1.0.0
+|         |    +--- androidx.core:core:1.0.0 (*)
+|         |    +--- androidx.documentfile:documentfile:1.0.0
+|         |    |    \--- androidx.annotation:annotation:1.0.0
+|         |    +--- androidx.loader:loader:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    +--- androidx.core:core:1.0.0 (*)
+|         |    |    +--- androidx.lifecycle:lifecycle-livedata:2.0.0
+|         |    |    |    +--- androidx.arch.core:core-runtime:2.0.0
+|         |    |    |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    |    |    \--- androidx.arch.core:core-common:2.0.0 (*)
+|         |    |    |    +--- androidx.lifecycle:lifecycle-livedata-core:2.0.0
+|         |    |    |    |    +--- androidx.lifecycle:lifecycle-common:2.0.0 (*)
+|         |    |    |    |    +--- androidx.arch.core:core-common:2.0.0 (*)
+|         |    |    |    |    \--- androidx.arch.core:core-runtime:2.0.0 (*)
+|         |    |    |    \--- androidx.arch.core:core-common:2.0.0 (*)
+|         |    |    \--- androidx.lifecycle:lifecycle-viewmodel:2.0.0
+|         |    |         \--- androidx.annotation:annotation:1.0.0
+|         |    +--- androidx.localbroadcastmanager:localbroadcastmanager:1.0.0
+|         |    |    \--- androidx.annotation:annotation:1.0.0
+|         |    \--- androidx.print:print:1.0.0
+|         |         \--- androidx.annotation:annotation:1.0.0
+|         +--- androidx.legacy:legacy-support-core-ui:1.0.0-rc01 -> 1.0.0
+|         |    +--- androidx.annotation:annotation:1.0.0
+|         |    +--- androidx.core:core:1.0.0 (*)
+|         |    +--- androidx.legacy:legacy-support-core-utils:1.0.0 (*)
+|         |    +--- androidx.customview:customview:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    \--- androidx.core:core:1.0.0 (*)
+|         |    +--- androidx.viewpager:viewpager:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    +--- androidx.core:core:1.0.0 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0 (*)
+|         |    +--- androidx.coordinatorlayout:coordinatorlayout:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    +--- androidx.core:core:1.0.0 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0 (*)
+|         |    +--- androidx.drawerlayout:drawerlayout:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    +--- androidx.core:core:1.0.0 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0 (*)
+|         |    +--- androidx.slidingpanelayout:slidingpanelayout:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    +--- androidx.core:core:1.0.0 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0 (*)
+|         |    +--- androidx.interpolator:interpolator:1.0.0
+|         |    |    \--- androidx.annotation:annotation:1.0.0
+|         |    +--- androidx.swiperefreshlayout:swiperefreshlayout:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    +--- androidx.core:core:1.0.0 (*)
+|         |    |    \--- androidx.interpolator:interpolator:1.0.0 (*)
+|         |    +--- androidx.asynclayoutinflater:asynclayoutinflater:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    \--- androidx.core:core:1.0.0 (*)
+|         |    \--- androidx.cursoradapter:cursoradapter:1.0.0
+|         |         \--- androidx.annotation:annotation:1.0.0
+|         \--- androidx.fragment:fragment:1.0.0-rc01 -> 1.0.0
+|              +--- androidx.core:core:1.0.0 (*)
+|              +--- androidx.legacy:legacy-support-core-ui:1.0.0 (*)
+|              +--- androidx.legacy:legacy-support-core-utils:1.0.0 (*)
+|              +--- androidx.annotation:annotation:1.0.0
+|              +--- androidx.loader:loader:1.0.0 (*)
+|              \--- androidx.lifecycle:lifecycle-viewmodel:2.0.0 (*)
++--- project :path_provider
++--- project :flutter_webview_plugin
+|    \--- androidx.appcompat:appcompat:1.0.0
+|         +--- androidx.annotation:annotation:1.0.0
+|         +--- androidx.core:core:1.0.0 (*)
+|         +--- androidx.collection:collection:1.0.0 (*)
+|         +--- androidx.cursoradapter:cursoradapter:1.0.0 (*)
+|         +--- androidx.legacy:legacy-support-core-utils:1.0.0 (*)
+|         +--- androidx.fragment:fragment:1.0.0 (*)
+|         +--- androidx.vectordrawable:vectordrawable:1.0.0
+|         |    +--- androidx.annotation:annotation:1.0.0
+|         |    \--- androidx.core:core:1.0.0 (*)
+|         \--- androidx.vectordrawable:vectordrawable-animated:1.0.0
+|              +--- androidx.vectordrawable:vectordrawable:1.0.0 (*)
+|              \--- androidx.legacy:legacy-support-core-ui:1.0.0 (*)
+\--- project :flutter_native_image
+
+profileRuntimeElements - Runtime elements for profile (n)
+No dependencies
+
+profileRuntimeOnly - Runtime only dependencies for compilation 'profile' (target  (androidJvm)). (n)
+No dependencies
+
+profileRuntimeOnlyDependenciesMetadata
+No dependencies
+
+profileUnitTestAnnotationProcessorClasspath - Resolved configuration for annotation-processor for variant: profileUnitTest
+No dependencies
+
+profileUnitTestApi - API dependencies for compilation 'profileUnitTest' (target  (androidJvm)). (n)
+No dependencies
+
+profileUnitTestApiDependenciesMetadata
+No dependencies
+
+profileUnitTestCompile - Dependencies for compilation 'profileUnitTest' (target  (androidJvm)) (deprecated, use 'profileUnitTestImplementation ' instead).
+No dependencies
+
+profileUnitTestCompileClasspath - Compile classpath for compilation 'profileUnitTest' (target  (androidJvm)).
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.71
+|    \--- org.jetbrains.kotlin:kotlin-stdlib:1.2.71
+|         +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.71
+|         \--- org.jetbrains:annotations:13.0
++--- project :video_player
++--- project :fluttertoast
++--- project :shared_preferences
++--- project :sqflite
++--- project :image_picker
+|    \--- com.android.support:support-v4:27.1.1 -> androidx.legacy:legacy-support-v4:1.0.0-rc01
+|         +--- androidx.core:core:1.0.0-rc01
+|         |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    +--- androidx.collection:collection:1.0.0-rc01
+|         |    |    \--- androidx.annotation:annotation:1.0.0-rc01
+|         |    +--- androidx.lifecycle:lifecycle-runtime:2.0.0-rc01
+|         |    |    +--- androidx.lifecycle:lifecycle-common:2.0.0-rc01
+|         |    |    \--- androidx.arch.core:core-common:2.0.0-rc01
+|         |    \--- androidx.versionedparcelable:versionedparcelable:1.0.0-rc01
+|         |         +--- androidx.annotation:annotation:1.0.0-rc01
+|         |         \--- androidx.collection:collection:1.0.0-rc01 (*)
+|         +--- androidx.media:media:1.0.0-rc01
+|         |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    \--- androidx.versionedparcelable:versionedparcelable:1.0.0-rc01 (*)
+|         +--- androidx.legacy:legacy-support-core-utils:1.0.0-rc01
+|         |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    +--- androidx.documentfile:documentfile:1.0.0-rc01
+|         |    |    \--- androidx.annotation:annotation:1.0.0-rc01
+|         |    +--- androidx.loader:loader:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    |    +--- androidx.lifecycle:lifecycle-livedata-core:2.0.0-rc01
+|         |    |    |    +--- androidx.lifecycle:lifecycle-common:2.0.0-rc01
+|         |    |    |    +--- androidx.arch.core:core-common:2.0.0-rc01
+|         |    |    |    \--- androidx.arch.core:core-runtime:2.0.0-rc01
+|         |    |    |         \--- androidx.arch.core:core-common:2.0.0-rc01
+|         |    |    \--- androidx.lifecycle:lifecycle-viewmodel:2.0.0-rc01
+|         |    +--- androidx.localbroadcastmanager:localbroadcastmanager:1.0.0-rc01
+|         |    |    \--- androidx.annotation:annotation:1.0.0-rc01
+|         |    \--- androidx.print:print:1.0.0-rc01
+|         |         \--- androidx.annotation:annotation:1.0.0-rc01
+|         +--- androidx.legacy:legacy-support-core-ui:1.0.0-rc01
+|         |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    +--- androidx.legacy:legacy-support-core-utils:1.0.0-rc01 (*)
+|         |    +--- androidx.customview:customview:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    |    \--- androidx.core:core:1.0.0-rc01 (*)
+|         |    +--- androidx.viewpager:viewpager:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0-rc01 (*)
+|         |    +--- androidx.coordinatorlayout:coordinatorlayout:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0-rc01 (*)
+|         |    +--- androidx.drawerlayout:drawerlayout:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0-rc01 (*)
+|         |    +--- androidx.slidingpanelayout:slidingpanelayout:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0-rc01 (*)
+|         |    +--- androidx.interpolator:interpolator:1.0.0-rc01
+|         |    |    \--- androidx.annotation:annotation:1.0.0-rc01
+|         |    +--- androidx.swiperefreshlayout:swiperefreshlayout:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    |    \--- androidx.interpolator:interpolator:1.0.0-rc01 (*)
+|         |    +--- androidx.asynclayoutinflater:asynclayoutinflater:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    |    \--- androidx.core:core:1.0.0-rc01 (*)
+|         |    \--- androidx.cursoradapter:cursoradapter:1.0.0-rc01
+|         |         \--- androidx.annotation:annotation:1.0.0-rc01
+|         \--- androidx.fragment:fragment:1.0.0-rc01
+|              +--- androidx.core:core:1.0.0-rc01 (*)
+|              +--- androidx.legacy:legacy-support-core-ui:1.0.0-rc01 (*)
+|              +--- androidx.legacy:legacy-support-core-utils:1.0.0-rc01 (*)
+|              +--- androidx.annotation:annotation:1.0.0-rc01
+|              +--- androidx.loader:loader:1.0.0-rc01 (*)
+|              \--- androidx.lifecycle:lifecycle-viewmodel:2.0.0-rc01
++--- project :path_provider
++--- project :flutter_webview_plugin
++--- project :flutter_native_image
+\--- junit:junit:4.12
+     \--- org.hamcrest:hamcrest-core:1.3
+
+profileUnitTestCompileOnly - Compile only dependencies for compilation 'profileUnitTest' (target  (androidJvm)).
+No dependencies
+
+profileUnitTestCompileOnlyDependenciesMetadata
+No dependencies
+
+profileUnitTestImplementation - Implementation only dependencies for compilation 'profileUnitTest' (target  (androidJvm)). (n)
+No dependencies
+
+profileUnitTestImplementationDependenciesMetadata
+\--- junit:junit:4.12
+     \--- org.hamcrest:hamcrest-core:1.3
+
+profileUnitTestRuntime - Runtime dependencies for compilation 'profileUnitTest' (target  (androidJvm)) (deprecated, use 'profileUnitTestRuntimeOnly ' instead).
+No dependencies
+
+profileUnitTestRuntimeClasspath - Runtime classpath of compilation 'profileUnitTest' (target  (androidJvm)).
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.71
+|    \--- org.jetbrains.kotlin:kotlin-stdlib:1.2.71
+|         +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.71
+|         \--- org.jetbrains:annotations:13.0
++--- project :video_player
+|    +--- com.google.android.exoplayer:exoplayer-core:2.9.6
+|    |    \--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
+|    +--- com.google.android.exoplayer:exoplayer-hls:2.9.6
+|    |    +--- com.google.android.exoplayer:exoplayer-core:2.9.6 (*)
+|    |    \--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
+|    +--- com.google.android.exoplayer:exoplayer-dash:2.9.6
+|    |    +--- com.google.android.exoplayer:exoplayer-core:2.9.6 (*)
+|    |    \--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
+|    \--- com.google.android.exoplayer:exoplayer-smoothstreaming:2.9.6
+|         +--- com.google.android.exoplayer:exoplayer-core:2.9.6 (*)
+|         \--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
++--- project :fluttertoast
++--- project :shared_preferences
++--- project :sqflite
++--- project :image_picker
+|    \--- com.android.support:support-v4:27.1.1 -> androidx.legacy:legacy-support-v4:1.0.0-rc01
+|         +--- androidx.core:core:1.0.0-rc01 -> 1.0.0
+|         |    +--- androidx.annotation:annotation:1.0.0
+|         |    +--- androidx.collection:collection:1.0.0
+|         |    |    \--- androidx.annotation:annotation:1.0.0
+|         |    +--- androidx.lifecycle:lifecycle-runtime:2.0.0
+|         |    |    +--- androidx.lifecycle:lifecycle-common:2.0.0
+|         |    |    |    \--- androidx.annotation:annotation:1.0.0
+|         |    |    +--- androidx.arch.core:core-common:2.0.0
+|         |    |    |    \--- androidx.annotation:annotation:1.0.0
+|         |    |    \--- androidx.annotation:annotation:1.0.0
+|         |    \--- androidx.versionedparcelable:versionedparcelable:1.0.0
+|         |         +--- androidx.annotation:annotation:1.0.0
+|         |         \--- androidx.collection:collection:1.0.0 (*)
+|         +--- androidx.media:media:1.0.0-rc01
+|         |    +--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
+|         |    +--- androidx.core:core:1.0.0-rc01 -> 1.0.0 (*)
+|         |    \--- androidx.versionedparcelable:versionedparcelable:1.0.0-rc01 -> 1.0.0 (*)
+|         +--- androidx.legacy:legacy-support-core-utils:1.0.0-rc01 -> 1.0.0
+|         |    +--- androidx.annotation:annotation:1.0.0
+|         |    +--- androidx.core:core:1.0.0 (*)
+|         |    +--- androidx.documentfile:documentfile:1.0.0
+|         |    |    \--- androidx.annotation:annotation:1.0.0
+|         |    +--- androidx.loader:loader:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    +--- androidx.core:core:1.0.0 (*)
+|         |    |    +--- androidx.lifecycle:lifecycle-livedata:2.0.0
+|         |    |    |    +--- androidx.arch.core:core-runtime:2.0.0
+|         |    |    |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    |    |    \--- androidx.arch.core:core-common:2.0.0 (*)
+|         |    |    |    +--- androidx.lifecycle:lifecycle-livedata-core:2.0.0
+|         |    |    |    |    +--- androidx.lifecycle:lifecycle-common:2.0.0 (*)
+|         |    |    |    |    +--- androidx.arch.core:core-common:2.0.0 (*)
+|         |    |    |    |    \--- androidx.arch.core:core-runtime:2.0.0 (*)
+|         |    |    |    \--- androidx.arch.core:core-common:2.0.0 (*)
+|         |    |    \--- androidx.lifecycle:lifecycle-viewmodel:2.0.0
+|         |    |         \--- androidx.annotation:annotation:1.0.0
+|         |    +--- androidx.localbroadcastmanager:localbroadcastmanager:1.0.0
+|         |    |    \--- androidx.annotation:annotation:1.0.0
+|         |    \--- androidx.print:print:1.0.0
+|         |         \--- androidx.annotation:annotation:1.0.0
+|         +--- androidx.legacy:legacy-support-core-ui:1.0.0-rc01 -> 1.0.0
+|         |    +--- androidx.annotation:annotation:1.0.0
+|         |    +--- androidx.core:core:1.0.0 (*)
+|         |    +--- androidx.legacy:legacy-support-core-utils:1.0.0 (*)
+|         |    +--- androidx.customview:customview:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    \--- androidx.core:core:1.0.0 (*)
+|         |    +--- androidx.viewpager:viewpager:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    +--- androidx.core:core:1.0.0 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0 (*)
+|         |    +--- androidx.coordinatorlayout:coordinatorlayout:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    +--- androidx.core:core:1.0.0 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0 (*)
+|         |    +--- androidx.drawerlayout:drawerlayout:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    +--- androidx.core:core:1.0.0 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0 (*)
+|         |    +--- androidx.slidingpanelayout:slidingpanelayout:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    +--- androidx.core:core:1.0.0 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0 (*)
+|         |    +--- androidx.interpolator:interpolator:1.0.0
+|         |    |    \--- androidx.annotation:annotation:1.0.0
+|         |    +--- androidx.swiperefreshlayout:swiperefreshlayout:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    +--- androidx.core:core:1.0.0 (*)
+|         |    |    \--- androidx.interpolator:interpolator:1.0.0 (*)
+|         |    +--- androidx.asynclayoutinflater:asynclayoutinflater:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    \--- androidx.core:core:1.0.0 (*)
+|         |    \--- androidx.cursoradapter:cursoradapter:1.0.0
+|         |         \--- androidx.annotation:annotation:1.0.0
+|         \--- androidx.fragment:fragment:1.0.0-rc01 -> 1.0.0
+|              +--- androidx.core:core:1.0.0 (*)
+|              +--- androidx.legacy:legacy-support-core-ui:1.0.0 (*)
+|              +--- androidx.legacy:legacy-support-core-utils:1.0.0 (*)
+|              +--- androidx.annotation:annotation:1.0.0
+|              +--- androidx.loader:loader:1.0.0 (*)
+|              \--- androidx.lifecycle:lifecycle-viewmodel:2.0.0 (*)
++--- project :path_provider
++--- project :flutter_webview_plugin
+|    \--- androidx.appcompat:appcompat:1.0.0
+|         +--- androidx.annotation:annotation:1.0.0
+|         +--- androidx.core:core:1.0.0 (*)
+|         +--- androidx.collection:collection:1.0.0 (*)
+|         +--- androidx.cursoradapter:cursoradapter:1.0.0 (*)
+|         +--- androidx.legacy:legacy-support-core-utils:1.0.0 (*)
+|         +--- androidx.fragment:fragment:1.0.0 (*)
+|         +--- androidx.vectordrawable:vectordrawable:1.0.0
+|         |    +--- androidx.annotation:annotation:1.0.0
+|         |    \--- androidx.core:core:1.0.0 (*)
+|         \--- androidx.vectordrawable:vectordrawable-animated:1.0.0
+|              +--- androidx.vectordrawable:vectordrawable:1.0.0 (*)
+|              \--- androidx.legacy:legacy-support-core-ui:1.0.0 (*)
++--- project :flutter_native_image
+\--- junit:junit:4.12
+     \--- org.hamcrest:hamcrest-core:1.3
+
+profileUnitTestRuntimeOnly - Runtime only dependencies for compilation 'profileUnitTest' (target  (androidJvm)). (n)
+No dependencies
+
+profileUnitTestRuntimeOnlyDependenciesMetadata
+No dependencies
+
+profileWearApp - Link to a wear app to embed for object 'profile'. (n)
+No dependencies
+
+profileWearBundling - Resolved Configuration for wear app bundling for variant: profile
+No dependencies
+
+provided - Provided dependencies for 'main' sources (deprecated: use 'compileOnly' instead). (n)
+No dependencies
+
+releaseAnnotationProcessor - Classpath for the annotation processor for 'release'. (n)
+No dependencies
+
+releaseAnnotationProcessorClasspath - Resolved configuration for annotation-processor for variant: release
+No dependencies
+
+releaseApi - API dependencies for compilation 'release' (target  (androidJvm)). (n)
++--- unspecified (n)
+\--- unspecified (n)
+
+releaseApiDependenciesMetadata
+No dependencies
+
+releaseApiElements - API elements for release (n)
+No dependencies
+
+releaseApk - Apk dependencies for 'release' sources (deprecated: use 'releaseRuntimeOnly' instead). (n)
+No dependencies
+
+releaseBundleElements - Bundle elements for release (n)
+No dependencies
+
+releaseCompile - Dependencies for compilation 'release' (target  (androidJvm)) (deprecated, use 'releaseImplementation ' instead).
+No dependencies
+
+releaseCompileClasspath - Compile classpath for compilation 'release' (target  (androidJvm)).
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.71
+|    \--- org.jetbrains.kotlin:kotlin-stdlib:1.2.71
+|         +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.71
+|         \--- org.jetbrains:annotations:13.0
++--- project :video_player
++--- project :fluttertoast
++--- project :shared_preferences
++--- project :sqflite
++--- project :image_picker
+|    \--- com.android.support:support-v4:27.1.1 -> androidx.legacy:legacy-support-v4:1.0.0-rc01
+|         +--- androidx.core:core:1.0.0-rc01
+|         |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    +--- androidx.collection:collection:1.0.0-rc01
+|         |    |    \--- androidx.annotation:annotation:1.0.0-rc01
+|         |    +--- androidx.lifecycle:lifecycle-runtime:2.0.0-rc01
+|         |    |    +--- androidx.lifecycle:lifecycle-common:2.0.0-rc01
+|         |    |    \--- androidx.arch.core:core-common:2.0.0-rc01
+|         |    \--- androidx.versionedparcelable:versionedparcelable:1.0.0-rc01
+|         |         +--- androidx.annotation:annotation:1.0.0-rc01
+|         |         \--- androidx.collection:collection:1.0.0-rc01 (*)
+|         +--- androidx.media:media:1.0.0-rc01
+|         |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    \--- androidx.versionedparcelable:versionedparcelable:1.0.0-rc01 (*)
+|         +--- androidx.legacy:legacy-support-core-utils:1.0.0-rc01
+|         |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    +--- androidx.documentfile:documentfile:1.0.0-rc01
+|         |    |    \--- androidx.annotation:annotation:1.0.0-rc01
+|         |    +--- androidx.loader:loader:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    |    +--- androidx.lifecycle:lifecycle-livedata-core:2.0.0-rc01
+|         |    |    |    +--- androidx.lifecycle:lifecycle-common:2.0.0-rc01
+|         |    |    |    +--- androidx.arch.core:core-common:2.0.0-rc01
+|         |    |    |    \--- androidx.arch.core:core-runtime:2.0.0-rc01
+|         |    |    |         \--- androidx.arch.core:core-common:2.0.0-rc01
+|         |    |    \--- androidx.lifecycle:lifecycle-viewmodel:2.0.0-rc01
+|         |    +--- androidx.localbroadcastmanager:localbroadcastmanager:1.0.0-rc01
+|         |    |    \--- androidx.annotation:annotation:1.0.0-rc01
+|         |    \--- androidx.print:print:1.0.0-rc01
+|         |         \--- androidx.annotation:annotation:1.0.0-rc01
+|         +--- androidx.legacy:legacy-support-core-ui:1.0.0-rc01
+|         |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    +--- androidx.legacy:legacy-support-core-utils:1.0.0-rc01 (*)
+|         |    +--- androidx.customview:customview:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    |    \--- androidx.core:core:1.0.0-rc01 (*)
+|         |    +--- androidx.viewpager:viewpager:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0-rc01 (*)
+|         |    +--- androidx.coordinatorlayout:coordinatorlayout:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0-rc01 (*)
+|         |    +--- androidx.drawerlayout:drawerlayout:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0-rc01 (*)
+|         |    +--- androidx.slidingpanelayout:slidingpanelayout:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0-rc01 (*)
+|         |    +--- androidx.interpolator:interpolator:1.0.0-rc01
+|         |    |    \--- androidx.annotation:annotation:1.0.0-rc01
+|         |    +--- androidx.swiperefreshlayout:swiperefreshlayout:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    |    \--- androidx.interpolator:interpolator:1.0.0-rc01 (*)
+|         |    +--- androidx.asynclayoutinflater:asynclayoutinflater:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    |    \--- androidx.core:core:1.0.0-rc01 (*)
+|         |    \--- androidx.cursoradapter:cursoradapter:1.0.0-rc01
+|         |         \--- androidx.annotation:annotation:1.0.0-rc01
+|         \--- androidx.fragment:fragment:1.0.0-rc01
+|              +--- androidx.core:core:1.0.0-rc01 (*)
+|              +--- androidx.legacy:legacy-support-core-ui:1.0.0-rc01 (*)
+|              +--- androidx.legacy:legacy-support-core-utils:1.0.0-rc01 (*)
+|              +--- androidx.annotation:annotation:1.0.0-rc01
+|              +--- androidx.loader:loader:1.0.0-rc01 (*)
+|              \--- androidx.lifecycle:lifecycle-viewmodel:2.0.0-rc01
++--- project :path_provider
++--- project :flutter_webview_plugin
+\--- project :flutter_native_image
+
+releaseCompileOnly - Compile only dependencies for compilation 'release' (target  (androidJvm)).
+No dependencies
+
+releaseCompileOnlyDependenciesMetadata
+No dependencies
+
+releaseImplementation - Implementation only dependencies for compilation 'release' (target  (androidJvm)). (n)
+No dependencies
+
+releaseImplementationDependenciesMetadata
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.71
+|    \--- org.jetbrains.kotlin:kotlin-stdlib:1.2.71
+|         +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.71
+|         \--- org.jetbrains:annotations:13.0
++--- project :video_player FAILED
++--- project :fluttertoast FAILED
++--- project :shared_preferences FAILED
++--- project :sqflite FAILED
++--- project :image_picker FAILED
++--- project :path_provider FAILED
++--- project :flutter_webview_plugin FAILED
+\--- project :flutter_native_image FAILED
+
+releaseMetadataElements (n)
+No dependencies
+
+releaseMetadataValues - Metadata Values dependencies for the base Split
+No dependencies
+
+releaseProvided - Provided dependencies for 'release' sources (deprecated: use 'releaseCompileOnly' instead). (n)
+No dependencies
+
+releaseRuntime - Runtime dependencies for compilation 'release' (target  (androidJvm)) (deprecated, use 'releaseRuntimeOnly ' instead).
+No dependencies
+
+releaseRuntimeClasspath - Runtime classpath of compilation 'release' (target  (androidJvm)).
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.71
+|    \--- org.jetbrains.kotlin:kotlin-stdlib:1.2.71
+|         +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.71
+|         \--- org.jetbrains:annotations:13.0
++--- project :video_player
+|    +--- com.google.android.exoplayer:exoplayer-core:2.9.6
+|    |    \--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
+|    +--- com.google.android.exoplayer:exoplayer-hls:2.9.6
+|    |    +--- com.google.android.exoplayer:exoplayer-core:2.9.6 (*)
+|    |    \--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
+|    +--- com.google.android.exoplayer:exoplayer-dash:2.9.6
+|    |    +--- com.google.android.exoplayer:exoplayer-core:2.9.6 (*)
+|    |    \--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
+|    \--- com.google.android.exoplayer:exoplayer-smoothstreaming:2.9.6
+|         +--- com.google.android.exoplayer:exoplayer-core:2.9.6 (*)
+|         \--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
++--- project :fluttertoast
++--- project :shared_preferences
++--- project :sqflite
++--- project :image_picker
+|    \--- com.android.support:support-v4:27.1.1 -> androidx.legacy:legacy-support-v4:1.0.0-rc01
+|         +--- androidx.core:core:1.0.0-rc01 -> 1.0.0
+|         |    +--- androidx.annotation:annotation:1.0.0
+|         |    +--- androidx.collection:collection:1.0.0
+|         |    |    \--- androidx.annotation:annotation:1.0.0
+|         |    +--- androidx.lifecycle:lifecycle-runtime:2.0.0
+|         |    |    +--- androidx.lifecycle:lifecycle-common:2.0.0
+|         |    |    |    \--- androidx.annotation:annotation:1.0.0
+|         |    |    +--- androidx.arch.core:core-common:2.0.0
+|         |    |    |    \--- androidx.annotation:annotation:1.0.0
+|         |    |    \--- androidx.annotation:annotation:1.0.0
+|         |    \--- androidx.versionedparcelable:versionedparcelable:1.0.0
+|         |         +--- androidx.annotation:annotation:1.0.0
+|         |         \--- androidx.collection:collection:1.0.0 (*)
+|         +--- androidx.media:media:1.0.0-rc01
+|         |    +--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
+|         |    +--- androidx.core:core:1.0.0-rc01 -> 1.0.0 (*)
+|         |    \--- androidx.versionedparcelable:versionedparcelable:1.0.0-rc01 -> 1.0.0 (*)
+|         +--- androidx.legacy:legacy-support-core-utils:1.0.0-rc01 -> 1.0.0
+|         |    +--- androidx.annotation:annotation:1.0.0
+|         |    +--- androidx.core:core:1.0.0 (*)
+|         |    +--- androidx.documentfile:documentfile:1.0.0
+|         |    |    \--- androidx.annotation:annotation:1.0.0
+|         |    +--- androidx.loader:loader:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    +--- androidx.core:core:1.0.0 (*)
+|         |    |    +--- androidx.lifecycle:lifecycle-livedata:2.0.0
+|         |    |    |    +--- androidx.arch.core:core-runtime:2.0.0
+|         |    |    |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    |    |    \--- androidx.arch.core:core-common:2.0.0 (*)
+|         |    |    |    +--- androidx.lifecycle:lifecycle-livedata-core:2.0.0
+|         |    |    |    |    +--- androidx.lifecycle:lifecycle-common:2.0.0 (*)
+|         |    |    |    |    +--- androidx.arch.core:core-common:2.0.0 (*)
+|         |    |    |    |    \--- androidx.arch.core:core-runtime:2.0.0 (*)
+|         |    |    |    \--- androidx.arch.core:core-common:2.0.0 (*)
+|         |    |    \--- androidx.lifecycle:lifecycle-viewmodel:2.0.0
+|         |    |         \--- androidx.annotation:annotation:1.0.0
+|         |    +--- androidx.localbroadcastmanager:localbroadcastmanager:1.0.0
+|         |    |    \--- androidx.annotation:annotation:1.0.0
+|         |    \--- androidx.print:print:1.0.0
+|         |         \--- androidx.annotation:annotation:1.0.0
+|         +--- androidx.legacy:legacy-support-core-ui:1.0.0-rc01 -> 1.0.0
+|         |    +--- androidx.annotation:annotation:1.0.0
+|         |    +--- androidx.core:core:1.0.0 (*)
+|         |    +--- androidx.legacy:legacy-support-core-utils:1.0.0 (*)
+|         |    +--- androidx.customview:customview:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    \--- androidx.core:core:1.0.0 (*)
+|         |    +--- androidx.viewpager:viewpager:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    +--- androidx.core:core:1.0.0 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0 (*)
+|         |    +--- androidx.coordinatorlayout:coordinatorlayout:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    +--- androidx.core:core:1.0.0 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0 (*)
+|         |    +--- androidx.drawerlayout:drawerlayout:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    +--- androidx.core:core:1.0.0 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0 (*)
+|         |    +--- androidx.slidingpanelayout:slidingpanelayout:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    +--- androidx.core:core:1.0.0 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0 (*)
+|         |    +--- androidx.interpolator:interpolator:1.0.0
+|         |    |    \--- androidx.annotation:annotation:1.0.0
+|         |    +--- androidx.swiperefreshlayout:swiperefreshlayout:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    +--- androidx.core:core:1.0.0 (*)
+|         |    |    \--- androidx.interpolator:interpolator:1.0.0 (*)
+|         |    +--- androidx.asynclayoutinflater:asynclayoutinflater:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    \--- androidx.core:core:1.0.0 (*)
+|         |    \--- androidx.cursoradapter:cursoradapter:1.0.0
+|         |         \--- androidx.annotation:annotation:1.0.0
+|         \--- androidx.fragment:fragment:1.0.0-rc01 -> 1.0.0
+|              +--- androidx.core:core:1.0.0 (*)
+|              +--- androidx.legacy:legacy-support-core-ui:1.0.0 (*)
+|              +--- androidx.legacy:legacy-support-core-utils:1.0.0 (*)
+|              +--- androidx.annotation:annotation:1.0.0
+|              +--- androidx.loader:loader:1.0.0 (*)
+|              \--- androidx.lifecycle:lifecycle-viewmodel:2.0.0 (*)
++--- project :path_provider
++--- project :flutter_webview_plugin
+|    \--- androidx.appcompat:appcompat:1.0.0
+|         +--- androidx.annotation:annotation:1.0.0
+|         +--- androidx.core:core:1.0.0 (*)
+|         +--- androidx.collection:collection:1.0.0 (*)
+|         +--- androidx.cursoradapter:cursoradapter:1.0.0 (*)
+|         +--- androidx.legacy:legacy-support-core-utils:1.0.0 (*)
+|         +--- androidx.fragment:fragment:1.0.0 (*)
+|         +--- androidx.vectordrawable:vectordrawable:1.0.0
+|         |    +--- androidx.annotation:annotation:1.0.0
+|         |    \--- androidx.core:core:1.0.0 (*)
+|         \--- androidx.vectordrawable:vectordrawable-animated:1.0.0
+|              +--- androidx.vectordrawable:vectordrawable:1.0.0 (*)
+|              \--- androidx.legacy:legacy-support-core-ui:1.0.0 (*)
+\--- project :flutter_native_image
+
+releaseRuntimeElements - Runtime elements for release (n)
+No dependencies
+
+releaseRuntimeOnly - Runtime only dependencies for compilation 'release' (target  (androidJvm)). (n)
+No dependencies
+
+releaseRuntimeOnlyDependenciesMetadata
+No dependencies
+
+releaseUnitTestAnnotationProcessorClasspath - Resolved configuration for annotation-processor for variant: releaseUnitTest
+No dependencies
+
+releaseUnitTestApi - API dependencies for compilation 'releaseUnitTest' (target  (androidJvm)). (n)
+No dependencies
+
+releaseUnitTestApiDependenciesMetadata
+No dependencies
+
+releaseUnitTestCompile - Dependencies for compilation 'releaseUnitTest' (target  (androidJvm)) (deprecated, use 'releaseUnitTestImplementation ' instead).
+No dependencies
+
+releaseUnitTestCompileClasspath - Compile classpath for compilation 'releaseUnitTest' (target  (androidJvm)).
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.71
+|    \--- org.jetbrains.kotlin:kotlin-stdlib:1.2.71
+|         +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.71
+|         \--- org.jetbrains:annotations:13.0
++--- project :video_player
++--- project :fluttertoast
++--- project :shared_preferences
++--- project :sqflite
++--- project :image_picker
+|    \--- com.android.support:support-v4:27.1.1 -> androidx.legacy:legacy-support-v4:1.0.0-rc01
+|         +--- androidx.core:core:1.0.0-rc01
+|         |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    +--- androidx.collection:collection:1.0.0-rc01
+|         |    |    \--- androidx.annotation:annotation:1.0.0-rc01
+|         |    +--- androidx.lifecycle:lifecycle-runtime:2.0.0-rc01
+|         |    |    +--- androidx.lifecycle:lifecycle-common:2.0.0-rc01
+|         |    |    \--- androidx.arch.core:core-common:2.0.0-rc01
+|         |    \--- androidx.versionedparcelable:versionedparcelable:1.0.0-rc01
+|         |         +--- androidx.annotation:annotation:1.0.0-rc01
+|         |         \--- androidx.collection:collection:1.0.0-rc01 (*)
+|         +--- androidx.media:media:1.0.0-rc01
+|         |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    \--- androidx.versionedparcelable:versionedparcelable:1.0.0-rc01 (*)
+|         +--- androidx.legacy:legacy-support-core-utils:1.0.0-rc01
+|         |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    +--- androidx.documentfile:documentfile:1.0.0-rc01
+|         |    |    \--- androidx.annotation:annotation:1.0.0-rc01
+|         |    +--- androidx.loader:loader:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    |    +--- androidx.lifecycle:lifecycle-livedata-core:2.0.0-rc01
+|         |    |    |    +--- androidx.lifecycle:lifecycle-common:2.0.0-rc01
+|         |    |    |    +--- androidx.arch.core:core-common:2.0.0-rc01
+|         |    |    |    \--- androidx.arch.core:core-runtime:2.0.0-rc01
+|         |    |    |         \--- androidx.arch.core:core-common:2.0.0-rc01
+|         |    |    \--- androidx.lifecycle:lifecycle-viewmodel:2.0.0-rc01
+|         |    +--- androidx.localbroadcastmanager:localbroadcastmanager:1.0.0-rc01
+|         |    |    \--- androidx.annotation:annotation:1.0.0-rc01
+|         |    \--- androidx.print:print:1.0.0-rc01
+|         |         \--- androidx.annotation:annotation:1.0.0-rc01
+|         +--- androidx.legacy:legacy-support-core-ui:1.0.0-rc01
+|         |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    +--- androidx.legacy:legacy-support-core-utils:1.0.0-rc01 (*)
+|         |    +--- androidx.customview:customview:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    |    \--- androidx.core:core:1.0.0-rc01 (*)
+|         |    +--- androidx.viewpager:viewpager:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0-rc01 (*)
+|         |    +--- androidx.coordinatorlayout:coordinatorlayout:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0-rc01 (*)
+|         |    +--- androidx.drawerlayout:drawerlayout:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0-rc01 (*)
+|         |    +--- androidx.slidingpanelayout:slidingpanelayout:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0-rc01 (*)
+|         |    +--- androidx.interpolator:interpolator:1.0.0-rc01
+|         |    |    \--- androidx.annotation:annotation:1.0.0-rc01
+|         |    +--- androidx.swiperefreshlayout:swiperefreshlayout:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    |    +--- androidx.core:core:1.0.0-rc01 (*)
+|         |    |    \--- androidx.interpolator:interpolator:1.0.0-rc01 (*)
+|         |    +--- androidx.asynclayoutinflater:asynclayoutinflater:1.0.0-rc01
+|         |    |    +--- androidx.annotation:annotation:1.0.0-rc01
+|         |    |    \--- androidx.core:core:1.0.0-rc01 (*)
+|         |    \--- androidx.cursoradapter:cursoradapter:1.0.0-rc01
+|         |         \--- androidx.annotation:annotation:1.0.0-rc01
+|         \--- androidx.fragment:fragment:1.0.0-rc01
+|              +--- androidx.core:core:1.0.0-rc01 (*)
+|              +--- androidx.legacy:legacy-support-core-ui:1.0.0-rc01 (*)
+|              +--- androidx.legacy:legacy-support-core-utils:1.0.0-rc01 (*)
+|              +--- androidx.annotation:annotation:1.0.0-rc01
+|              +--- androidx.loader:loader:1.0.0-rc01 (*)
+|              \--- androidx.lifecycle:lifecycle-viewmodel:2.0.0-rc01
++--- project :path_provider
++--- project :flutter_webview_plugin
++--- project :flutter_native_image
+\--- junit:junit:4.12
+     \--- org.hamcrest:hamcrest-core:1.3
+
+releaseUnitTestCompileOnly - Compile only dependencies for compilation 'releaseUnitTest' (target  (androidJvm)).
+No dependencies
+
+releaseUnitTestCompileOnlyDependenciesMetadata
+No dependencies
+
+releaseUnitTestImplementation - Implementation only dependencies for compilation 'releaseUnitTest' (target  (androidJvm)). (n)
+No dependencies
+
+releaseUnitTestImplementationDependenciesMetadata
+\--- junit:junit:4.12
+     \--- org.hamcrest:hamcrest-core:1.3
+
+releaseUnitTestRuntime - Runtime dependencies for compilation 'releaseUnitTest' (target  (androidJvm)) (deprecated, use 'releaseUnitTestRuntimeOnly ' instead).
+No dependencies
+
+releaseUnitTestRuntimeClasspath - Runtime classpath of compilation 'releaseUnitTest' (target  (androidJvm)).
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.71
+|    \--- org.jetbrains.kotlin:kotlin-stdlib:1.2.71
+|         +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.71
+|         \--- org.jetbrains:annotations:13.0
++--- project :video_player
+|    +--- com.google.android.exoplayer:exoplayer-core:2.9.6
+|    |    \--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
+|    +--- com.google.android.exoplayer:exoplayer-hls:2.9.6
+|    |    +--- com.google.android.exoplayer:exoplayer-core:2.9.6 (*)
+|    |    \--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
+|    +--- com.google.android.exoplayer:exoplayer-dash:2.9.6
+|    |    +--- com.google.android.exoplayer:exoplayer-core:2.9.6 (*)
+|    |    \--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
+|    \--- com.google.android.exoplayer:exoplayer-smoothstreaming:2.9.6
+|         +--- com.google.android.exoplayer:exoplayer-core:2.9.6 (*)
+|         \--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
++--- project :fluttertoast
++--- project :shared_preferences
++--- project :sqflite
++--- project :image_picker
+|    \--- com.android.support:support-v4:27.1.1 -> androidx.legacy:legacy-support-v4:1.0.0-rc01
+|         +--- androidx.core:core:1.0.0-rc01 -> 1.0.0
+|         |    +--- androidx.annotation:annotation:1.0.0
+|         |    +--- androidx.collection:collection:1.0.0
+|         |    |    \--- androidx.annotation:annotation:1.0.0
+|         |    +--- androidx.lifecycle:lifecycle-runtime:2.0.0
+|         |    |    +--- androidx.lifecycle:lifecycle-common:2.0.0
+|         |    |    |    \--- androidx.annotation:annotation:1.0.0
+|         |    |    +--- androidx.arch.core:core-common:2.0.0
+|         |    |    |    \--- androidx.annotation:annotation:1.0.0
+|         |    |    \--- androidx.annotation:annotation:1.0.0
+|         |    \--- androidx.versionedparcelable:versionedparcelable:1.0.0
+|         |         +--- androidx.annotation:annotation:1.0.0
+|         |         \--- androidx.collection:collection:1.0.0 (*)
+|         +--- androidx.media:media:1.0.0-rc01
+|         |    +--- androidx.annotation:annotation:1.0.0-rc01 -> 1.0.0
+|         |    +--- androidx.core:core:1.0.0-rc01 -> 1.0.0 (*)
+|         |    \--- androidx.versionedparcelable:versionedparcelable:1.0.0-rc01 -> 1.0.0 (*)
+|         +--- androidx.legacy:legacy-support-core-utils:1.0.0-rc01 -> 1.0.0
+|         |    +--- androidx.annotation:annotation:1.0.0
+|         |    +--- androidx.core:core:1.0.0 (*)
+|         |    +--- androidx.documentfile:documentfile:1.0.0
+|         |    |    \--- androidx.annotation:annotation:1.0.0
+|         |    +--- androidx.loader:loader:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    +--- androidx.core:core:1.0.0 (*)
+|         |    |    +--- androidx.lifecycle:lifecycle-livedata:2.0.0
+|         |    |    |    +--- androidx.arch.core:core-runtime:2.0.0
+|         |    |    |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    |    |    \--- androidx.arch.core:core-common:2.0.0 (*)
+|         |    |    |    +--- androidx.lifecycle:lifecycle-livedata-core:2.0.0
+|         |    |    |    |    +--- androidx.lifecycle:lifecycle-common:2.0.0 (*)
+|         |    |    |    |    +--- androidx.arch.core:core-common:2.0.0 (*)
+|         |    |    |    |    \--- androidx.arch.core:core-runtime:2.0.0 (*)
+|         |    |    |    \--- androidx.arch.core:core-common:2.0.0 (*)
+|         |    |    \--- androidx.lifecycle:lifecycle-viewmodel:2.0.0
+|         |    |         \--- androidx.annotation:annotation:1.0.0
+|         |    +--- androidx.localbroadcastmanager:localbroadcastmanager:1.0.0
+|         |    |    \--- androidx.annotation:annotation:1.0.0
+|         |    \--- androidx.print:print:1.0.0
+|         |         \--- androidx.annotation:annotation:1.0.0
+|         +--- androidx.legacy:legacy-support-core-ui:1.0.0-rc01 -> 1.0.0
+|         |    +--- androidx.annotation:annotation:1.0.0
+|         |    +--- androidx.core:core:1.0.0 (*)
+|         |    +--- androidx.legacy:legacy-support-core-utils:1.0.0 (*)
+|         |    +--- androidx.customview:customview:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    \--- androidx.core:core:1.0.0 (*)
+|         |    +--- androidx.viewpager:viewpager:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    +--- androidx.core:core:1.0.0 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0 (*)
+|         |    +--- androidx.coordinatorlayout:coordinatorlayout:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    +--- androidx.core:core:1.0.0 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0 (*)
+|         |    +--- androidx.drawerlayout:drawerlayout:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    +--- androidx.core:core:1.0.0 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0 (*)
+|         |    +--- androidx.slidingpanelayout:slidingpanelayout:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    +--- androidx.core:core:1.0.0 (*)
+|         |    |    \--- androidx.customview:customview:1.0.0 (*)
+|         |    +--- androidx.interpolator:interpolator:1.0.0
+|         |    |    \--- androidx.annotation:annotation:1.0.0
+|         |    +--- androidx.swiperefreshlayout:swiperefreshlayout:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    +--- androidx.core:core:1.0.0 (*)
+|         |    |    \--- androidx.interpolator:interpolator:1.0.0 (*)
+|         |    +--- androidx.asynclayoutinflater:asynclayoutinflater:1.0.0
+|         |    |    +--- androidx.annotation:annotation:1.0.0
+|         |    |    \--- androidx.core:core:1.0.0 (*)
+|         |    \--- androidx.cursoradapter:cursoradapter:1.0.0
+|         |         \--- androidx.annotation:annotation:1.0.0
+|         \--- androidx.fragment:fragment:1.0.0-rc01 -> 1.0.0
+|              +--- androidx.core:core:1.0.0 (*)
+|              +--- androidx.legacy:legacy-support-core-ui:1.0.0 (*)
+|              +--- androidx.legacy:legacy-support-core-utils:1.0.0 (*)
+|              +--- androidx.annotation:annotation:1.0.0
+|              +--- androidx.loader:loader:1.0.0 (*)
+|              \--- androidx.lifecycle:lifecycle-viewmodel:2.0.0 (*)
++--- project :path_provider
++--- project :flutter_webview_plugin
+|    \--- androidx.appcompat:appcompat:1.0.0
+|         +--- androidx.annotation:annotation:1.0.0
+|         +--- androidx.core:core:1.0.0 (*)
+|         +--- androidx.collection:collection:1.0.0 (*)
+|         +--- androidx.cursoradapter:cursoradapter:1.0.0 (*)
+|         +--- androidx.legacy:legacy-support-core-utils:1.0.0 (*)
+|         +--- androidx.fragment:fragment:1.0.0 (*)
+|         +--- androidx.vectordrawable:vectordrawable:1.0.0
+|         |    +--- androidx.annotation:annotation:1.0.0
+|         |    \--- androidx.core:core:1.0.0 (*)
+|         \--- androidx.vectordrawable:vectordrawable-animated:1.0.0
+|              +--- androidx.vectordrawable:vectordrawable:1.0.0 (*)
+|              \--- androidx.legacy:legacy-support-core-ui:1.0.0 (*)
++--- project :flutter_native_image
+\--- junit:junit:4.12
+     \--- org.hamcrest:hamcrest-core:1.3
+
+releaseUnitTestRuntimeOnly - Runtime only dependencies for compilation 'releaseUnitTest' (target  (androidJvm)). (n)
+No dependencies
+
+releaseUnitTestRuntimeOnlyDependenciesMetadata
+No dependencies
+
+releaseWearApp - Link to a wear app to embed for object 'release'. (n)
+No dependencies
+
+releaseWearBundling - Resolved Configuration for wear app bundling for variant: release
+No dependencies
+
+runtimeOnly - Runtime only dependencies for 'main' sources. (n)
+No dependencies
+
+runtimeOnlyDependenciesMetadata
+No dependencies
+
+testAnnotationProcessor - Classpath for the annotation processor for 'test'. (n)
+No dependencies
+
+testApi - API dependencies for 'test' sources. (n)
+No dependencies
+
+testApiDependenciesMetadata
+No dependencies
+
+testApk - Apk dependencies for 'test' sources (deprecated: use 'testRuntimeOnly' instead). (n)
+No dependencies
+
+testCompile - Compile dependencies for 'test' sources (deprecated: use 'testImplementation' instead).
+No dependencies
+
+testCompileOnly - Compile only dependencies for 'test' sources. (n)
+No dependencies
+
+testCompileOnlyDependenciesMetadata
+No dependencies
+
+testDebugAnnotationProcessor - Classpath for the annotation processor for 'testDebug'. (n)
+No dependencies
+
+testDebugApi - API dependencies for 'testDebug' sources. (n)
+No dependencies
+
+testDebugApiDependenciesMetadata
+No dependencies
+
+testDebugApk - Apk dependencies for 'testDebug' sources (deprecated: use 'testDebugRuntimeOnly' instead). (n)
+No dependencies
+
+testDebugCompile - Compile dependencies for 'testDebug' sources (deprecated: use 'testDebugImplementation' instead). (n)
+No dependencies
+
+testDebugCompileOnly - Compile only dependencies for 'testDebug' sources. (n)
+No dependencies
+
+testDebugCompileOnlyDependenciesMetadata
+No dependencies
+
+testDebugImplementation - Implementation only dependencies for 'testDebug' sources. (n)
+No dependencies
+
+testDebugImplementationDependenciesMetadata
+No dependencies
+
+testDebugProvided - Provided dependencies for 'testDebug' sources (deprecated: use 'testDebugCompileOnly' instead). (n)
+No dependencies
+
+testDebugRuntimeOnly - Runtime only dependencies for 'testDebug' sources. (n)
+No dependencies
+
+testDebugRuntimeOnlyDependenciesMetadata
+No dependencies
+
+testDebugWearApp - Link to a wear app to embed for object 'testDebug'. (n)
+No dependencies
+
+testImplementation - Implementation only dependencies for 'test' sources. (n)
+\--- junit:junit:4.12 (n)
+
+testImplementationDependenciesMetadata
+\--- junit:junit:4.12
+     \--- org.hamcrest:hamcrest-core:1.3
+
+testProfileAnnotationProcessor - Classpath for the annotation processor for 'testProfile'. (n)
+No dependencies
+
+testProfileApi - API dependencies for 'testProfile' sources. (n)
+No dependencies
+
+testProfileApiDependenciesMetadata
+No dependencies
+
+testProfileApk - Apk dependencies for 'testProfile' sources (deprecated: use 'testProfileRuntimeOnly' instead). (n)
+No dependencies
+
+testProfileCompile - Compile dependencies for 'testProfile' sources (deprecated: use 'testProfileImplementation' instead). (n)
+No dependencies
+
+testProfileCompileOnly - Compile only dependencies for 'testProfile' sources. (n)
+No dependencies
+
+testProfileCompileOnlyDependenciesMetadata
+No dependencies
+
+testProfileImplementation - Implementation only dependencies for 'testProfile' sources. (n)
+No dependencies
+
+testProfileImplementationDependenciesMetadata
+No dependencies
+
+testProfileProvided - Provided dependencies for 'testProfile' sources (deprecated: use 'testProfileCompileOnly' instead). (n)
+No dependencies
+
+testProfileRuntimeOnly - Runtime only dependencies for 'testProfile' sources. (n)
+No dependencies
+
+testProfileRuntimeOnlyDependenciesMetadata
+No dependencies
+
+testProfileWearApp - Link to a wear app to embed for object 'testProfile'. (n)
+No dependencies
+
+testProvided - Provided dependencies for 'test' sources (deprecated: use 'testCompileOnly' instead). (n)
+No dependencies
+
+testReleaseAnnotationProcessor - Classpath for the annotation processor for 'testRelease'. (n)
+No dependencies
+
+testReleaseApi - API dependencies for 'testRelease' sources. (n)
+No dependencies
+
+testReleaseApiDependenciesMetadata
+No dependencies
+
+testReleaseApk - Apk dependencies for 'testRelease' sources (deprecated: use 'testReleaseRuntimeOnly' instead). (n)
+No dependencies
+
+testReleaseCompile - Compile dependencies for 'testRelease' sources (deprecated: use 'testReleaseImplementation' instead). (n)
+No dependencies
+
+testReleaseCompileOnly - Compile only dependencies for 'testRelease' sources. (n)
+No dependencies
+
+testReleaseCompileOnlyDependenciesMetadata
+No dependencies
+
+testReleaseImplementation - Implementation only dependencies for 'testRelease' sources. (n)
+No dependencies
+
+testReleaseImplementationDependenciesMetadata
+No dependencies
+
+testReleaseProvided - Provided dependencies for 'testRelease' sources (deprecated: use 'testReleaseCompileOnly' instead). (n)
+No dependencies
+
+testReleaseRuntimeOnly - Runtime only dependencies for 'testRelease' sources. (n)
+No dependencies
+
+testReleaseRuntimeOnlyDependenciesMetadata
+No dependencies
+
+testReleaseWearApp - Link to a wear app to embed for object 'testRelease'. (n)
+No dependencies
+
+testRuntimeOnly - Runtime only dependencies for 'test' sources. (n)
+No dependencies
+
+testRuntimeOnlyDependenciesMetadata
+No dependencies
+
+testWearApp - Link to a wear app to embed for object 'test'. (n)
+No dependencies
+
+wearApp - Link to a wear app to embed for object 'main'. (n)
+No dependencies
+
+(*) - dependencies omitted (listed previously)
+
+(n) - Not resolved (configuration is not meant to be resolved)
+
+A web-based, searchable dependency report is available by adding the --scan option.
+1 actionable task: 1 executed
